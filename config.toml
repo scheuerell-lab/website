@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Agency"
 theme = "hugo-agency-theme"
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Mark Scheuerell"
+  description = "University of Washington"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "APPEL"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "apple_outline_gray.svg"
     about = "About"
     team = "People"
     services = "Services"
@@ -66,10 +66,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    # [[menu.postpend]]
+    #   url = "http://gohugo.io"
+    #   name = "External link"
+    #   weight = 10
 
 
   # Hero section
@@ -78,42 +78,24 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = ""
     subtitle = "Applied Ecology Lab"
-    buttonText = "More about us"
+    buttonText = "MORE INFO"
 
 
     # About section
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Here's a brief timeline of important events in our past."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "Mark_head.jpg"
+      date = "May 2019"
+      title = "APPEL is formed"
+      description = "Mark is hired as the Assistant Unit Leader for the WACFWRU and as an Associate Professor in the UW School of Aquatic and Fishery Sciences. He forms the Applied Ecology Lab (APPEL)."
 
 
   # Team section
