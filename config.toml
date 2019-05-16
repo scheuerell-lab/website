@@ -103,7 +103,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
+    title = "Our team"
     subtitle = "We are an ever-changing group."
     description = "Perhaps you would like to join us as well?"
 
@@ -122,11 +122,29 @@ googleAnalytics = ""
       #   "Open Source [community management](#)"
       # ]
       # For bio markdown and even multiline strings are available.
-      bio = "Mark leads this group, but is always trying to catch up to his students and post-docs."
+      bio = "Mark apparently leads this group, but he's always trying to catch up to everyone else."
       social = [
         ["fa-twitter", "https://twitter.com/mark_scheuerell"],
         ["fa-github", "https://github.com/mdscheuerell"],
       ]
+
+    [[params.team.members]]
+      img = "ashes.jpg"
+      name = "Ashes"
+      position = "Sleepy Cat"
+      reportsTo = ""
+      livesIn = ""
+      # scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      #   "Open Source [community management](#)"
+      # ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Ashes loves to avoid people and sleep while doing it."
+      # social = [
+      #   ["fa-twitter", "https://twitter.com/mark_scheuerell"],
+      #   ["fa-github", "https://github.com/mdscheuerell"],
+      # ]
 
 # Services section
   [params.services]
