@@ -104,8 +104,8 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our team"
-    subtitle = "Take a look at our ever-changing group."
-    description = "There might be a place for you here as well."
+    subtitle = ""
+    description = "Perhaps there's a place here for you as well?"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -237,7 +237,7 @@ googleAnalytics = ""
     enable = true
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    # buttonText = "Send message"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -258,7 +258,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    # email = "your@email.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -269,20 +269,20 @@ googleAnalytics = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+    #   text = "Your Name *"
+    #   warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+    #   text = "Your Email *"
+    #   warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+    #   text = "Your Phone *"
+    #   warning = "Please enter your phone number."
 
     [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+    #   text = "Your Message *"
+    #   warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -296,27 +296,18 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Copyright: Mark Scheuerell 2019"
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/mark_scheuerell"
       title = "Twitter"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+      icon = "fa-github"
+      link = "https://github.com/scheuerell-lab"
+      title = "GitHub"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"
