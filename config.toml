@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Agency"
+title = "Scheuerell Lab"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -85,7 +85,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Here's a brief timeline of important events in our past."
+    subtitle = "A timeline of important events in our past:"
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -104,8 +104,8 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our team"
-    subtitle = "We are an ever-changing group."
-    description = "Perhaps you would like to join us as well?"
+    subtitle = "Take a look at our ever-changing group."
+    description = "There might be a place for you here as well."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -116,11 +116,11 @@ googleAnalytics = ""
       position = "Principal Investigator"
       reportsTo = ""
       livesIn = ""
-      # scope = [
+      scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
-      #   "Open Source [community management](#)"
-      # ]
+       "he/him"
+      ]
       # For bio markdown and even multiline strings are available.
       bio = "Mark apparently leads this group, but he's always trying to catch up to everyone else."
       social = [
@@ -130,21 +130,37 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "ashes.jpg"
-      name = "Ashes"
+      name = "Ashes Kittyball"
       position = "Sleepy Cat"
       reportsTo = ""
       livesIn = ""
-      # scope = [
+      scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
-      #   "Open Source [community management](#)"
-      # ]
+       "she/her"
+      ]
       # For bio markdown and even multiline strings are available.
       bio = "Ashes loves to avoid people and sleep while doing it."
-      # social = [
-      #   ["fa-twitter", "https://twitter.com/mark_scheuerell"],
-      #   ["fa-github", "https://github.com/mdscheuerell"],
-      # ]
+      social = [
+       ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
+      ]
+
+    [[params.team.members]]
+      img = "cassette.jpg"
+      name = "Sam Yurnameer"
+      position = "Future lab member"
+      reportsTo = ""
+      livesIn = ""
+      scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+       "they/them"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Sam are not afraid to make mistakes and learn from them. They enjoy a range of activities outside of academics."
+      social = [
+       ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
+      ]
 
 # Services section
   [params.services]
