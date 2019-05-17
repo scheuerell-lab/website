@@ -148,7 +148,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "cassette.jpg"
       name = "Sam Yurnameer"
-      position = "Future lab member"
+      position = "Possible lab member"
       reportsTo = ""
       livesIn = ""
       scope = [
@@ -296,7 +296,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright: Mark Scheuerell 2019"
+    copyright = "&copy; Mark Scheuerell 2019"
 
     [[params.footer.social]]
       icon = "fa-twitter"
