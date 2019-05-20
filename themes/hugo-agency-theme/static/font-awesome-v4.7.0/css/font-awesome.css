@@ -923,6 +923,10 @@
 .fa-laptop:before {
   content: "\f109";
 }
+.fa-fish:before {
+  content: "\f578";
+}
+
 .fa-tablet:before {
   content: "\f10a";
 }
