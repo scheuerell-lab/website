@@ -48,11 +48,11 @@ googleAnalytics = ""
   [params.navigation]
     brand = "APPEL"
     # Optional logo as brand stored in img/
-    logo = "apple_outline_gray.svg"
+    logo = "apple_bitten.svg"
     about = "About"
     team = "People"
-    services = "Services"
-    portfolio = "Portfolio"
+    services = "Approaches"
+    portfolio = "Projects"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -105,7 +105,7 @@ googleAnalytics = ""
     #center = true
     title = "Our team"
     subtitle = ""
-    description = "Perhaps there's a place here for you as well?"
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -119,10 +119,9 @@ googleAnalytics = ""
       scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
-       "he/him"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "Mark apparently leads this group, but he's always trying to catch up to everyone else."
+      bio = "Mark apparently leads this group, but he's always trying to catch up to everyone else. You can find out more about him [here](https://faculty.washington.edu/scheuerl/)."
       social = [
         ["fa-twitter", "https://twitter.com/mark_scheuerell"],
         ["fa-github", "https://github.com/mdscheuerell"],
@@ -137,7 +136,6 @@ googleAnalytics = ""
       scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
-       "she/her"
       ]
       # For bio markdown and even multiline strings are available.
       bio = "Ashes loves to avoid people and sleep while doing it."
@@ -147,17 +145,16 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "cassette.jpg"
-      name = "Sam Yurnameer"
+      name = "Sam"
       position = "Possible lab member"
       reportsTo = ""
       livesIn = ""
       scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
-       "they/them"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "Sam are not afraid to make mistakes and learn from them. They enjoy a range of activities outside of academics."
+      bio = "Sam's not afraid to make mistakes and learn from them. She enjoys a variety of activities outside of academia."
       social = [
        ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
       ]
@@ -165,28 +162,29 @@ googleAnalytics = ""
 # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Approaches"
+    subtitle = "Our research involves complimentary approaches."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-sign-language"
+      title = "Empirical sampling"
+      description = "Hands-on field and lab studies."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Quantitative analyses"
+      description = "Obtaining the most information from our data."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-comments-o"
+      title = "Communication"
+      description = "Sharing our stories and information."
       url = "#"
+
 
   # Portfolio section
   [params.portfolio]
@@ -195,7 +193,7 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
+    title = "Projects"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
