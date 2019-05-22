@@ -35,18 +35,6 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.about.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.team.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
         {{ if .Site.Params.services.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
@@ -56,6 +44,18 @@
         {{ if .Site.Params.portfolio.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.about.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.team.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
