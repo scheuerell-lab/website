@@ -46,12 +46,12 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "APPEL"
+    # brand = "AppEL"
     # Optional logo as brand stored in img/
     logo = "apple_bitten.svg"
     about = "About"
     team = "People"
-    services = "Approach"
+    services = "Mission"
     portfolio = "Projects"
     contact = "Contact"
 
@@ -94,8 +94,8 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "Mark_head.jpg"
       date = "May 2019"
-      title = "APPEL is formed"
-      description = "Mark is hired as the Assistant Unit Leader for the WACFWRU and as an Associate Professor in the UW School of Aquatic and Fishery Sciences. He forms the Applied Ecology Lab (APPEL)."
+      title = "AppEL is formed"
+      description = "Mark is hired as the Assistant Unit Leader for the WACFWRU and as an Associate Professor in the UW School of Aquatic and Fishery Sciences. He forms the Applied Ecology Lab (AppEL)."
 
 
   # Team section
@@ -154,7 +154,7 @@ googleAnalytics = ""
       #   "Maintainer for [awesome-project](#)",
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "Sam's not afraid to make mistakes and learn from them. She enjoys a variety of activities outside of academia."
+      bio = "Sam's not afraid to make mistakes and learn from them. Outside of academia, Sam enjoys competitive dog grooming, soap carving, and unicycling."
       social = [
        ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
       ]
@@ -162,8 +162,10 @@ googleAnalytics = ""
 # Services section
   [params.services]
     enable = true
-    title = "Approach"
-    subtitle = "Our research involves complimentary approaches to answering questions."
+    title_1 = "Mission"
+    subtitle_1 = "To empower people with the knowledge and skills to succeed in science."
+    title_2 = "Vision"
+    subtitle_2 = "Our vision is to continually improve the conservation and management of aquatic resources through the integration of empirical data and quantitative methods. Our team relies on trust and respect to build effective collaborations and partnerships within and outside of academia. We constantly strive to expand and improve upon our complimentary skillsets through education and innovation. We believe strongly in the dissemination of knowledge through writing, presentations, and mentoring."
 
     [[params.services.row]]
 
@@ -176,7 +178,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Quantitative analyses"
-      description = "Obtaining the most information from our data."
+      description = "Extracting useful information from data."
       url = "https://github.com/scheuerell-lab"
 
     [[params.services.row.list]]
@@ -262,23 +264,23 @@ googleAnalytics = ""
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
-    [params.contact.captcha]
+    # [params.contact.captcha]
       # sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
+    # [params.contact.form.name]
     #   text = "Your Name *"
     #   warning = "Please enter your name."
 
-    [params.contact.form.email]
+    # [params.contact.form.email]
     #   text = "Your Email *"
     #   warning = "Please enter your email address."
 
-    [params.contact.form.phone]
+    # [params.contact.form.phone]
     #   text = "Your Phone *"
     #   warning = "Please enter your phone number."
 
-    [params.contact.form.message]
+    # [params.contact.form.message]
     #   text = "Your Message *"
     #   warning = "Please enter a message."
 
