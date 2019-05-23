@@ -49,7 +49,7 @@ googleAnalytics = ""
     # brand = "AppEL"
     # Optional logo as brand stored in img/
     logo = "apple_bitten.svg"
-    about = "About"
+    about = "Updates"
     team = "People"
     services = "Mission"
     portfolio = "Projects"
@@ -78,14 +78,14 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = ""
     subtitle = "Applied Ecology Lab"
-    buttonText = "MORE INFO"
+    buttonText = "Learn more"
 
 
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "A timeline of important events in our past:"
+    title = "News and updates"
+    subtitle = "Here are some things happening in our lab."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -296,7 +296,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "&copy; Mark Scheuerell 2019"
+    copyright = "&copy; 2019 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"
