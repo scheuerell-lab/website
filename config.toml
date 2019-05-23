@@ -163,9 +163,9 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title_1 = "Mission"
-    subtitle_1 = "To empower people with the knowledge and skills to succeed in science."
+    subtitle_1 = "To empower people with the knowledge and skills to succeed in life."
     title_2 = "Vision"
-    subtitle_2 = "Our vision is to continually improve the conservation and management of aquatic resources through the integration of empirical data and quantitative methods. Our team relies on trust and respect to build effective collaborations and partnerships within and outside of academia. We constantly strive to expand and improve upon our complimentary skillsets through education and innovation. We believe strongly in the dissemination of knowledge through writing, presentations, and mentoring."
+    subtitle_2 = "Our vision is to improve the management of aquatic resources through data collection, analysis, and communication in an open science environment. Our team relies on trust and respect to build effective partnerships with collaborators and stakeholders. We continually strive to expand and improve upon our complimentary skillsets through education and innovation. We believe strongly in the dissemination of knowledge through writing and conversation."
 
     [[params.services.row]]
 
@@ -178,13 +178,13 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Quantitative analyses"
-      description = "Extracting useful information from data."
+      description = "Finding signals among the noise in data."
       url = "https://github.com/scheuerell-lab"
 
     [[params.services.row.list]]
       icon = "fa-comments-o"
       title = "Communication"
-      description = "Sharing our stories and information."
+      description = "Sharing our information and listening to others."
       url = "https://twitter.com/mark_scheuerell"
 
 
