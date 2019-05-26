@@ -363,8 +363,8 @@ section h3.section-subheading {
 
 section h3.section-subheading-alt {
     margin-bottom: 75px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -884,15 +884,16 @@ ul.social-buttons li a:active {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content p {
@@ -904,15 +905,18 @@ ul.social-buttons li a:active {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .portfolio-modal .close-modal {
@@ -923,10 +927,12 @@ ul.social-buttons li a:active {
     height: 75px;
     background-color: transparent;
     cursor: pointer;
+    text-align: center;
 }
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
+    text-align: center;
 }
 
 .portfolio-modal .close-modal .lr {
@@ -938,6 +944,7 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+    text-align: center;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -948,11 +955,13 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+    text-align: center;
 }
 
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+    text-align: center;
 }
 
 ::-moz-selection {
