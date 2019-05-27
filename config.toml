@@ -202,7 +202,7 @@ googleAnalytics = ""
       client = "Partner"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Close"
 
 
   # Client section
