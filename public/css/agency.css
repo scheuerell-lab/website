@@ -75,6 +75,8 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
+    margin: auto;
+    width: 100%;
 }
 
 .btn-primary:hover,
@@ -759,7 +761,7 @@ aside .heading {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/winter_rower.jpg);
+    );
     background-position: center;
     background-repeat: no-repeat;
 }
