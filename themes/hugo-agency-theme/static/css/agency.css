@@ -75,8 +75,6 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
-    margin: auto;
-    width: 100%;
 }
 
 .btn-primary:hover,
@@ -913,6 +911,8 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
