@@ -1,10 +1,10 @@
 modalID: 1
 title: Skagit River Steelhead
 subtitle: Development and application of an integrated population model.
-date: 2019-05-21
+date: 2019-05-29
 img: srsc.jpg
-preview: green_moss.jpg
+preview: beverly_pana.jpeg
 client: Skagit River System Cooperative
 clientLink: "http://skagitcoop.org/"
 category: Integrated Popoulation Models
-description: "[Startup Framework](//designmodo.com/startup/?u=787) is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects. <br><br>You can preview Startup Framework [here](//designmodo.com/startup/?u=787)."
+description: "In 2007, the Puget Sound steelhead (_Oncorhynchus mykiss_) Distinct Population Segment (DPS) was listed as threatened under the U.S. Endangered Species Act (ESA). In support of efforts to evaluate the effects of various environmental drivers on the productivity, we developed an integrated population model for steelhead from the Skagit River basin. <br><br>You can find our data, code, and results [here](https://github.com/mdscheuerell/skagit_sthd)."
