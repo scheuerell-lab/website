@@ -75,6 +75,8 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
+    position: absolute;
+    right: 0px;
 }
 
 .btn-primary:hover,
