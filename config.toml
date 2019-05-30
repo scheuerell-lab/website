@@ -154,7 +154,7 @@ googleAnalytics = ""
       #   "Maintainer for [awesome-project](#)",
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "Sam's not afraid to make mistakes and learn from them. Outside of academia, Sam enjoys competitive dog grooming, roller derby, and gardening."
+      bio = "Sam's not afraid to make mistakes and learn from them. Outside of academia, Sam enjoys competitive dog grooming, mountain unicycling, and gardening."
       social = [
        ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
       ]
@@ -165,7 +165,7 @@ googleAnalytics = ""
     title_1 = "Mission"
     subtitle_1 = "Using our knowledge and skills to help solve real-world problems."
     title_2 = "Vision"
-    subtitle_2 = "Our vision is to better understand and manage aquatic ecosystems through the integration of data, analysis, and communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to expand upon and improve our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through writing and conversation."
+    subtitle_2 = "Our vision is to better understand and manage aquatic ecosystems through the integration of data, analysis, and communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to expand upon and improve our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
 
     [[params.services.row]]
 
