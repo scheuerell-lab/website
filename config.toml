@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "AppEL"
     # Optional logo as brand stored in img/
-    # logo = "apple_bitten.svg"
+    logo = "appel.svg"
     about = "News"
     team = "People"
     services = "Mission"
