@@ -1,0 +1,314 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "Scheuerell Lab"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Mark Scheuerell"
+  description = "University of Washington"
+  # email = "your@email.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "AppEL"
+    # Optional logo as brand stored in img/
+    logo = "appel.svg"
+    about = "News"
+    team = "People"
+    services = "Mission"
+    portfolio = "Projects"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    # [[menu.postpend]]
+    #   url = "http://gohugo.io"
+    #   name = "External link"
+    #   weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = ""
+    slogan = "Scheuerell Lab"
+    subtitle = "Applied Ecology Lab"
+    buttonText = "Learn more"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "News and updates"
+    subtitle = "Here are some things happening in our lab."
+    endpoint = "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "Mark_head.jpg"
+      date = "May 2019"
+      title = "AppEL is formed"
+      description = "Mark is hired as the Assistant Unit Leader for the USGS WACFWRU and as an Associate Professor in the UW School of Aquatic and Fishery Sciences. He forms the Applied Ecology Lab (AppEL)."
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Our team"
+    subtitle = ""
+    description = ""
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "Mark.jpg"
+      name = "Mark Scheuerell"
+      position = "Principal Investigator"
+      reportsTo = ""
+      livesIn = ""
+      scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Mark apparently leads this group, but he's always trying to catch up to everyone else. You can find out more about him [here](https://faculty.washington.edu/scheuerl/)."
+      social = [
+        ["fa-twitter", "https://twitter.com/mark_scheuerell"],
+        ["fa-github", "https://github.com/mdscheuerell"],
+      ]
+
+    [[params.team.members]]
+      img = "ashes.jpg"
+      name = "Ashes Kittyball"
+      position = "Sleepy Cat"
+      reportsTo = ""
+      livesIn = ""
+      scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Ashes loves to avoid people and sleep while doing it."
+      social = [
+       ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
+      ]
+
+    [[params.team.members]]
+      img = "cassette.jpg"
+      name = "Sam"
+      position = "Future lab member"
+      reportsTo = ""
+      livesIn = ""
+      scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Sam's not afraid to make mistakes and learn from them. Outside of academia, Sam enjoys competitive dog grooming, mountain unicycling, and gardening."
+      social = [
+       ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
+      ]
+
+# Services section
+  [params.services]
+    enable = true
+    title_1 = "Mission"
+    subtitle_1 = "Using our knowledge and skills to help solve real-world problems."
+    title_2 = "Vision"
+    subtitle_2 = "Our vision is to better understand and manage aquatic ecosystems through the integration of data, analysis, and communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to expand upon and improve our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-flask"
+      title = "Empirical sampling"
+      description = "Hands-on field and lab studies."
+      url = "https://github.com/scheuerell-lab"
+
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Quantitative analyses"
+      description = "Finding signals among the noise in data."
+      url = "https://github.com/scheuerell-lab"
+
+    [[params.services.row.list]]
+      icon = "fa-comments-o"
+      title = "Communication"
+      description = "Sharing our information and listening to others."
+      url = "https://twitter.com/mark_scheuerell"
+
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Projects"
+    subtitle = "Here are some examples of recent projects."
+
+    [params.portfolio.modal]
+      client = "Partner"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close"
+
+
+  # Client section
+    [params.clients_list]
+      enable = false
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = ""
+    # buttonText = "Send message"
+    # netlify = true
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    # email = "your@email.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # [params.contact.captcha]
+      # sitekey = ""
+
+    # 'warning' defines error messages for invalid inputs
+    # [params.contact.form.name]
+    #   text = "Your Name *"
+    #   warning = "Please enter your name."
+
+    # [params.contact.form.email]
+    #   text = "Your Email *"
+    #   warning = "Please enter your email address."
+
+    # [params.contact.form.phone]
+    #   text = "Your Phone *"
+    #   warning = "Please enter your phone number."
+
+    # [params.contact.form.message]
+    #   text = "Your Message *"
+    #   warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "&copy; 2019 Mark Scheuerell"
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/mark_scheuerell"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/scheuerell-lab"
+      title = "GitHub"
+
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"
