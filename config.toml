@@ -33,7 +33,7 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Approaches"
+			services  = "Approach"
 			portfolio = "Projects"
 			contact   = "Contact"
 
@@ -57,7 +57,7 @@ googleAnalytics = ""
 
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "Our approach to science"
 
     [[params.services.list]]
       icon = "fa-flask"
@@ -76,6 +76,12 @@ googleAnalytics = ""
       title = "Communication"
       description = "Sharing our information and listening to others."
       url = "https://twitter.com/mark_scheuerell"
+
+    [[params.services.list]]
+      icon = "fa-unlock"
+      title = "Open science"
+      description = "Creating accessible and reproducible workflows."
+      url = "https://github.com/scheuerell-lab"
 
 
 
