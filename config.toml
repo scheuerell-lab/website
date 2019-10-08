@@ -33,7 +33,7 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Mission"
+			services  = "Approaches"
 			portfolio = "Projects"
 			contact   = "Contact"
 
@@ -59,25 +59,24 @@ googleAnalytics = ""
 	[params.services]
 		headline = "At your service"
 
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+    [[params.services.list]]
+      icon = "fa-flask"
+      title = "Empirical data"
+      description = "Hands-on field and lab studies."
+      url = "https://github.com/scheuerell-lab"
 
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+    [[params.services.list]]
+      icon = "fa-laptop"
+      title = "Quantitative analyses"
+      description = "Finding signals among the noise in data."
+      url = "https://github.com/scheuerell-lab"
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+      icon = "fa-comments-o"
+      title = "Communication"
+      description = "Sharing our information and listening to others."
+      url = "https://twitter.com/mark_scheuerell"
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
 
 
     # Portfolio modals
