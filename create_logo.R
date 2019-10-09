@@ -5,7 +5,7 @@ showtext_auto()
 font_add(family = 'FontAwesome', regular = 'FontAwesome.otf')
 
 ## set color
-clr <- "#ffdd55"
+clr <- "white" # "#ffdd55"
 
 ## hexcodes for fontawesome icons
 fas <- c(flask = "f0c3", comments = "f086", laptop = "f109")
@@ -38,7 +38,7 @@ par(mai = c(0,0,0,0), omi = c(0, 0, 0, 0))
 plot(coord$x, coord$y, type = "n", ann = FALSE, axes = FALSE,
      xlim = c(-1,1) * 2.4, ylim = c(-1,1) * 2.4, asp = 1)
 
-symbols(x = 0, y = 0, circles = 2.5, lwd = 5, fg = "black", bg = "black",
+symbols(x = 0, y = 0, circles = 2.5, lwd = 5, fg = "#4b2e83", bg = "#4b2e83",
         inches = FALSE, add = TRUE)
 
 par(family = 'FontAwesome')
