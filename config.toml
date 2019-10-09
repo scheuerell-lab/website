@@ -33,6 +33,7 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			about     = "About"
+			team      = "People"
 			services  = "Approach"
 			portfolio = "Projects"
 			contact   = "Contact"
@@ -86,8 +87,6 @@ googleAnalytics = ""
   # Team section
   [params.team]
     enable = true
-    # Possibility to center items
-    #center = true
     title = "Our team"
     subtitle = ""
     description = ""
