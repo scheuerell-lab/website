@@ -16,6 +16,10 @@
             {{ partial "about.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.team }}
+            {{ partial "team.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.services.list }}
             {{ partial "services.html" . }}
         {{ end }}
