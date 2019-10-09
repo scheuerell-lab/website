@@ -129,6 +129,6 @@ googleAnalytics = ""
       link = "https://github.com/scheuerell-lab"
       title = "GitHub"
 
-    # [[params.footer.quicklinks]]
-    #   text = "Terms of Use"
-    #   link = "#"
+    [[params.footer.quicklinks]]
+      text = "Based on the Hugo Creative Theme"
+      link = "https://github.com/digitalcraftsman/hugo-creative-theme"
