@@ -6,10 +6,10 @@
         <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
       <div class="col-md-4">
-        <ul class="list-inline social-buttons">
+        <ul class="list-inline">
 
           {{ range .Site.Params.footer.social }}
-            <li><a href="{{ .link }}" title="{{ .title }}"><i class="fa {{ .icon }}"></i></a></li>
+            <li><a href="{{ .link }}" title="{{ .title }}"><i class="fa fa-3x {{ .icon }}"></i></a></li>
           {{ end }}
 
         </ul>
