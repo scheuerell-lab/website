@@ -46,7 +46,7 @@ function map () {
       streetViewControl: false,
       mapTypeControl: false,
       overviewMapControl: false,
-      scrollwheel: true,
+      scrollwheel: false,
       draggable: true,
       styles: styles
     })
