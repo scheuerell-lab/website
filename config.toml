@@ -92,13 +92,13 @@ googleAnalytics = ""
         category = "Category"
         buttonText = "Close"
 
-    # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+  # Aside section
+	# [params.aside]
+		# headline = ""
 
-		[params.aside.button]
-			text = ""
-			link = ""
+		# [params.aside.button]
+			# text = ""
+			# link = ""
 
 	# Contact section
 	[params.contact]
