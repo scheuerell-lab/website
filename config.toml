@@ -83,9 +83,68 @@ googleAnalytics = ""
       description = "Creating accessible and reproducible workflows."
       url = "https://github.com/scheuerell-lab"
 
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Our team"
+    subtitle = ""
+    description = ""
 
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "Mark.jpg"
+      name = "Mark Scheuerell"
+      position = "Principal Investigator"
+      reportsTo = ""
+      livesIn = ""
+      scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Mark apparently leads this group, but he's always trying to catch up to everyone else. You can find out more about him [here](https://faculty.washington.edu/scheuerl/)."
+      social = [
+        ["fa-twitter", "https://twitter.com/mark_scheuerell"],
+        ["fa-github", "https://github.com/mdscheuerell"],
+      ]
 
-    # Portfolio modals
+    [[params.team.members]]
+      img = "ashes.jpg"
+      name = "Ashes Kittyball"
+      position = "Sleepy Cat"
+      reportsTo = ""
+      livesIn = ""
+      scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Ashes loves to avoid people and sleep while doing it."
+      social = [
+       ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
+      ]
+
+    [[params.team.members]]
+      img = "cassette.jpg"
+      name = "Sam"
+      position = "Future lab member"
+      reportsTo = ""
+      livesIn = ""
+      scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "Sam's not afraid to make mistakes and learn from them. Outside of academia, Sam enjoys competitive dog grooming, mountain unicycling, and gardening."
+      social = [
+       ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
+      ]
+
+  # Portfolio modals
 	[params.portfolio.modal]
         client = "Client"
         date = "Date"
