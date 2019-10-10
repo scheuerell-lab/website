@@ -34,8 +34,8 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "About"
 			team      = "People"
-			services  = "Approach"
-			portfolio = "Projects"
+			services  = "Research"
+			portfolio = ""
 			contact   = "Contact"
 
 
@@ -43,7 +43,7 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background of the hero section, replace the 'header-bg.jpg' at './static/img' with your own.
     slogan = "Scheuerell Lab"
-    subtitle = ""
+    subtitle = "Applied ecology in a changing world"
     buttonText = "Learn more"
 
 
@@ -59,6 +59,8 @@ googleAnalytics = ""
 	# Service section
 	[params.services]
 		headline = "Our approach to science"
+		synopsis = "Research in the Scheuerell Lab focuses on the conservation and management of aquatic resources, particularly in Washington State and along the west coast of North America. Much of our research is focused on the development and application of statistical methods for analyzing temporal and spatial data, but we collect our own data as well. Please see below for some examples of recent projects in the lab."
+    tenets = ""
 
     [[params.services.list]]
       icon = "fa-flask"
@@ -88,7 +90,7 @@ googleAnalytics = ""
   [params.team]
     enable = true
     center = true
-    title = "Our team"
+    title = "OUR TEAM"
     subtitle = ""
     description = ""
 
@@ -106,7 +108,7 @@ googleAnalytics = ""
       #   "Maintainer for [awesome-project](#)",
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "Mark apparently leads this group, but he's always trying to catch up to everyone else. You can find out more about him [here](https://faculty.washington.edu/scheuerl/)."
+      bio = "Mark leads this group, but he's always trying to catch up to everyone else. You can find out more about him [here](https://faculty.washington.edu/scheuerl/)."
       social = [
         ["fa-twitter", "https://twitter.com/mark_scheuerell"],
         ["fa-github", "https://github.com/mdscheuerell"],
@@ -130,7 +132,7 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "cassette.jpg"
-      name = "Sam"
+      name = "Pat Chris"
       position = "Future lab member"
       reportsTo = ""
       livesIn = ""
@@ -139,7 +141,7 @@ googleAnalytics = ""
       #   "Maintainer for [awesome-project](#)",
       ]
       # For bio markdown and even multiline strings are available.
-      bio = "Sam's not afraid to make mistakes and learn from them. Outside of academia, Sam enjoys competitive dog grooming, mountain unicycling, and gardening."
+      bio = "Pat's not afraid to make mistakes and learn from them. Outside of academia, Pat enjoys competitive dog grooming, mountain unicycling, and gardening."
       social = [
        ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
       ]
