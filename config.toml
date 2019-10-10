@@ -87,6 +87,7 @@ googleAnalytics = ""
   # Team section
   [params.team]
     enable = true
+    center = true
     title = "Our team"
     subtitle = ""
     description = ""
@@ -160,7 +161,7 @@ googleAnalytics = ""
 
 	# Contact section
 	[params.contact]
-		headline = "Contact us"
+		headline = "Contact info"
 		description = "School of Aquatic and Fishery Sciences<br>University of Washington<br>PO Box 355020<br>Seattle, WA 98195-5020"
 		phone = ""
 		email = "scheuerl@uw.edu"
