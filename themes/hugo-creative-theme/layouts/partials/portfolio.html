@@ -1,13 +1,13 @@
 <section class="no-padding" id="portfolio">
 <aside class="bg-dark">
     <div class="container text-center">
-        <h2 style="font-size:40px">SOME RECENT PROJECTS</h2>
+        <h2 class="section-heading">Recent projects</h2>
     </div>
 </aside>
     <div class="container-fluid">
         <div class="row no-gutter">
             {{ range .Site.Data.projects }}
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-4">
                     <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/portfolio/{{ .img }}" class="img-responsive" alt="">
                         {{ if and .category .title }}
@@ -31,4 +31,6 @@
             {{ end }}
         </div>
     </div>
+<aside class="bg-dark">
+</aside>
 </section>
