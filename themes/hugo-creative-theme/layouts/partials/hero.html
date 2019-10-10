@@ -5,12 +5,15 @@
             {{ with .Site.Params.hero.slogan }}
                 <h1>{{ . | markdownify  }}</h1>
             {{ end }}
-                <br>
+            <!--    
+            <br>
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
                 <hr>
             {{ end }}
+            -->
             {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
+                <h2>{{ . | markdownify }}</h2>
+                <br>
             {{ end }}
             {{ with .Site.Params.hero.buttonText }}
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
