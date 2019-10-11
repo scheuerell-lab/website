@@ -9,10 +9,6 @@ googleAnalytics = ""
 	# You can use Markdown syntax for urls [text](//url.to/source) for
 	# most longer texts.
 
-	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
-
 	# All projects of the portfolio are defined in their own files.
 	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
 	# folder into the 'data' directory at the root of this Hugo site.
@@ -27,7 +23,9 @@ googleAnalytics = ""
 	favicon = "favicon.ico"
 
 
+	# ----------
 	# Navigation
+	# ----------
 	[params.navigation]
 		brand = "Scheuerell Lab"
 
@@ -39,54 +37,30 @@ googleAnalytics = ""
 			contact   = "Contact"
 
 
+	# ------------
 	# Hero section
+	# ------------
 	[params.hero]
-		# To change the background of the hero section, replace the 'header-bg.jpg' at './static/img' with your own.
+		# To change the background of the hero section, replace 'header-bg.jpg' at './static/img'.
     slogan = "Scheuerell Lab"
     subtitle = "Applied ecology in a changing world"
     buttonText = "Learn more"
 
 
-	# About section
-	[params.about]
+  # -------------
+  # About section
+  # -------------
+  [params.about]
 		headline_1    = "MISSION"
 		description_1 = "Using our knowledge and skills to help solve real-world problems."
 		headline_2    = "VISION"
 		description_2 = "Our vision is to better understand and manage aquatic ecosystems through the integration of data, analysis, and communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to expand upon and improve our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
-		buttonText  = "Get started!"
+		buttonText  = ""
 
 
-	# Service section
-	[params.services]
-		headline = "Our approach to science"
-		synopsis = "Research in the Scheuerell Lab focuses on the conservation and management of aquatic resources, particularly in Washington State and along the west coast of North America. Much of our research is focused on the development and application of statistical methods for analyzing temporal and spatial data, but we collect our own data as well. Please see below for some examples of recent projects in the lab."
-    tenets = ""
-
-    [[params.services.list]]
-      icon = "fa-flask"
-      title = "Empirical data"
-      description = "Hands-on field and lab studies."
-      url = "https://github.com/scheuerell-lab"
-
-    [[params.services.list]]
-      icon = "fa-laptop"
-      title = "Quantitative analyses"
-      description = "Finding signals among the noise in data."
-      url = "https://github.com/scheuerell-lab"
-
-		[[params.services.list]]
-      icon = "fa-comments-o"
-      title = "Communication"
-      description = "Sharing our information and listening to others."
-      url = "https://twitter.com/mark_scheuerell"
-
-    [[params.services.list]]
-      icon = "fa-unlock"
-      title = "Open science"
-      description = "Creating accessible and reproducible workflows."
-      url = "https://github.com/scheuerell-lab"
-
+  # ------------
   # Team section
+  # ------------
   [params.team]
     enable = true
     center = true
@@ -95,88 +69,120 @@ googleAnalytics = ""
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "Mark.jpg"
       name = "Mark Scheuerell"
       position = "Principal Investigator"
+      img = "Mark.jpg"
       reportsTo = ""
       livesIn = ""
       scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
       ]
-      # For bio markdown and even multiline strings are available.
-      bio = "Mark leads this group, but he's always trying to catch up to everyone else. You can find out more about him [here](https://faculty.washington.edu/scheuerl/)."
+      # For bio, markdown and multiline strings are possible.
+      bio = "Mark's research interests lie at the intersection of ecology and management. He is broadly interested in the roles of natural and anthropogenic drivers on freshwater and coastal ecosystems, and the services we derive from them. You can find out more about Mark's research and teaching interests [**here**](https://faculty.washington.edu/scheuerl/).<br><br>Mark appreciates a healthy work-life balance. In his free time, Mark enjoys cycling, skiing, and spending time with his family."
       social = [
         ["fa-twitter", "https://twitter.com/mark_scheuerell"],
         ["fa-github", "https://github.com/mdscheuerell"],
       ]
 
     [[params.team.members]]
-      img = "ashes.jpg"
       name = "Ashes Kittyball"
       position = "Sleepy Cat"
+      img = "ashes.jpg"
       reportsTo = ""
       livesIn = ""
       scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
       ]
-      # For bio markdown and even multiline strings are available.
+      # For bio, markdown and multiline strings are possible.
       bio = "Ashes loves to avoid people and sleep while doing it."
       social = [
-       ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
+        ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
       ]
 
     [[params.team.members]]
-      img = "cassette.jpg"
       name = "Pat Chris"
       position = "Future lab member"
+      img = "cassette.jpg"
       reportsTo = ""
       livesIn = ""
       scope = [
       #   "UX for [member dashboard](#)",
       #   "Maintainer for [awesome-project](#)",
       ]
-      # For bio markdown and even multiline strings are available.
+      # For bio, markdown and multiline strings are possible.
       bio = "Pat's not afraid to make mistakes and learn from them. Outside of academia, Pat enjoys competitive dog grooming, mountain unicycling, and gardening."
       social = [
        ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
       ]
 
+
+  # ---------------
+  # Service section
+  # ---------------
+  [params.services]
+    headline = "Our approach to science"
+    synopsis = "Research in the Scheuerell Lab focuses on the conservation and management of aquatic resources, particularly in Washington State and along the west coast of North America. Much of our research is focused on the development and application of statistical methods for analyzing temporal and spatial data, but we collect our own data as well. Please see below for some examples of recent projects in the lab."
+    tenets = ""
+      
+    [[params.services.list]]
+      icon = "fa-flask"
+      title = "Empirical data"
+      description = "Hands-on field and lab studies."
+      url = "https://github.com/scheuerell-lab"
+      
+    [[params.services.list]]
+      icon = "fa-laptop"
+      title = "Quantitative analyses"
+      description = "Finding signals among the noise in data."
+      url = "https://github.com/scheuerell-lab"
+      
+    [[params.services.list]]
+      icon = "fa-comments-o"
+      title = "Communication"
+      description = "Sharing our information and listening to others."
+      url = "https://twitter.com/mark_scheuerell"
+      
+    [[params.services.list]]
+      icon = "fa-unlock"
+      title = "Open science"
+      description = "Creating accessible and reproducible workflows."
+      url = "https://github.com/scheuerell-lab"
+      
+  # ----------------
   # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+  # ----------------
+  [params.portfolio.modal]
+    client = "Collaborator(s)"
+    date = "Date"
+    category = "Category"
+    buttonText = "Close"
 
-  # Aside section
-	# [params.aside]
-		# headline = ""
-
-		# [params.aside.button]
-			# text = ""
-			# link = ""
-
-	# Contact section
-	[params.contact]
+  # ---------------
+  # Contact section
+  # ---------------
+  [params.contact]
 		headline = "Contact info"
 		description = "School of Aquatic and Fishery Sciences<br>University of Washington<br>PO Box 355020<br>Seattle, WA 98195-5020"
 		phone = ""
 		email = "scheuerl@uw.edu"
 
+	# -------------------
 	# Google Maps section
+	# -------------------
 	[params.location]
 	 	map = 1
 	 	latitude  = "47.653311"
 	 	longitude = "-122.316222"
 	 	maps_api_key = "AIzaSyCOM_4Igg4AmZuG4Hv7KUqzSDvOiA8iu9A"
 
-  # Footer section
-  [params.footer]
+	# --------------
+	# Footer section
+	# --------------
+	[params.footer]
     enable = true
     copyright = "&copy; 2019 Mark Scheuerell"
 
@@ -191,5 +197,15 @@ googleAnalytics = ""
       title = "GitHub"
 
     [[params.footer.quicklinks]]
-      text = "Based on the Hugo Creative Theme"
+      text = "Adapted from the Hugo Creative Theme"
       link = "https://github.com/digitalcraftsman/hugo-creative-theme"
+
+  # -------------
+  # Aside section
+  # -------------
+  [params.aside]
+    headline = ""
+  
+      [params.aside.button]
+        text = ""
+        link = ""
