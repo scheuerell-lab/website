@@ -5,9 +5,10 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     {{ with .Site.Params.services.headline }}
                         <h2  style="color:#4b2e83" class="section-heading text-center">{{ . }}</h2>
+                        <hr>
                     {{ end }}
                     {{ with .Site.Params.services.synopsis }}
-                        <p>{{ . | markdownify }}</p>
+                        <p class="text-justify" style="padding:0px 80px 0px">{{ . | markdownify }}</p>
                     {{ end }}
                     {{ with .Site.Params.services.tenets }}
                         <h3 class="text-center">{{ . | markdownify }}</h3>
