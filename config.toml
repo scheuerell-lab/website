@@ -65,61 +65,42 @@ googleAnalytics = ""
     enable = true
     center = true
     title = "OUR TEAM"
-    subtitle = ""
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
+    [[params.team.PI]]
       name = "Mark Scheuerell"
       position = "Principal Investigator"
       img = "Mark.jpg"
-      reportsTo = ""
-      livesIn = ""
-      scope = [
-      #   "UX for [member dashboard](#)",
-      #   "Maintainer for [awesome-project](#)",
-      ]
       # For bio, markdown and multiline strings are possible.
-      bio = "Mark's research interests lie at the intersection of ecology and management. He is broadly interested in the roles of natural and anthropogenic drivers on freshwater and coastal ecosystems, and the services we derive from them. You can find out more about Mark's research and teaching interests [**here**](https://faculty.washington.edu/scheuerl/).<br><br>Mark appreciates a healthy work-life balance. In his free time, Mark enjoys cycling, skiing, and spending time with his family."
+      bio = "Mark's research interests lie at the intersection of ecology and management. He is broadly interested in the roles of natural and anthropogenic drivers on freshwater and coastal ecosystems, and the services we derive from them. You can find out more about Mark's research and teaching interests [**here**](https://faculty.washington.edu/scheuerl/).<br><br>Mark also appreciates a healthy work-life balance. In his free time, Mark enjoys cycling, skiing, and spending time with his family."
       social = [
         ["fa-twitter", "https://twitter.com/mark_scheuerell"],
         ["fa-github", "https://github.com/mdscheuerell"],
       ]
 
     [[params.team.members]]
-      name = "Ashes Kittyball"
-      position = "Sleepy Cat"
-      img = "ashes.jpg"
-      reportsTo = ""
-      livesIn = ""
-      scope = [
-      #   "UX for [member dashboard](#)",
-      #   "Maintainer for [awesome-project](#)",
-      ]
-      # For bio, markdown and multiline strings are possible.
-      bio = "Ashes loves to avoid people and sleep while doing it."
-      social = [
-        ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
-      ]
-
-    [[params.team.members]]
       name = "Pat Chris"
       position = "Future lab member"
       img = "cassette.jpg"
-      reportsTo = ""
-      livesIn = ""
-      scope = [
-      #   "UX for [member dashboard](#)",
-      #   "Maintainer for [awesome-project](#)",
-      ]
       # For bio, markdown and multiline strings are possible.
       bio = "Pat's not afraid to make mistakes and learn from them. Outside of academia, Pat enjoys competitive dog grooming, mountain unicycling, and gardening."
       social = [
        ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
       ]
 
-
+    [[params.team.members]]
+      name = "Ashes Kittyball"
+      position = "Sleepy Cat"
+      img = "ashes.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Ashes loves to avoid people and sleep while doing it."
+      social = [
+        ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
+        ]
+      
+      
   # ---------------
   # Service section
   # ---------------
