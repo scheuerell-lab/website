@@ -643,8 +643,9 @@ ul.social-buttons li a:active {
 }
 
 .team-bio {
-    padding: 15px;
-    font-size: 14px;
+    text-align: justify;
+    padding: 12px;
+    font-size: 15px;
 }
 
 .bg-light-gray {
