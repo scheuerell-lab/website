@@ -105,8 +105,8 @@ googleAnalytics = ""
   # Service section
   # ---------------
   [params.services]
-    headline = "Our approach to science"
-    synopsis = "Research in the Scheuerell Lab focuses on the conservation and management of aquatic resources, particularly in Washington State and along the west coast of North America. Much of our research is focused on the development and application of statistical methods for analyzing temporal and spatial data, but we collect our own data as well. Please see below for some examples of recent projects in the lab."
+    headline = "OUR RESEARCH"
+    synopsis = "Research in the Scheuerell Lab focuses on the conservation and management of aquatic resources, particularly in Washington State and along the west coast of North America. Much of our research is focused on the development and application of statistical methods for analyzing temporal and spatial data, but we collect our own data as well. Please see below for some examples of recent projects in the lab. <br><br> In particular, our research relies on a combination of empirical data, quantitative analysis, and communication. We also pursue our scientific endeavors in an open science environment where we create accessible and reproducible workflows."
     tenets = ""
       
     [[params.services.list]]
@@ -117,7 +117,7 @@ googleAnalytics = ""
       
     [[params.services.list]]
       icon = "fa-laptop"
-      title = "Quantitative analyses"
+      title = "Quantitative analysis"
       description = "Finding signals among the noise in data."
       url = "https://github.com/scheuerell-lab"
       
