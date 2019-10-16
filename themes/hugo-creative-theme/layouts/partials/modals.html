@@ -20,7 +20,7 @@
                         {{ end }}
                         <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
                         {{ with .description }}
-                            <p align="left">{{ . | markdownify }}</p>
+                            <p align="justify" style="padding:0px 100px 0px">{{ . | markdownify }}</p>
                         {{ end }}
                         {{ if or .client .date .category }}
                             <ul class="list-inline item-details">

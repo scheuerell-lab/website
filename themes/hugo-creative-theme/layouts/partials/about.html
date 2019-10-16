@@ -5,16 +5,20 @@
             <div class="col-lg-8 col-lg-offset-2">
                 {{ with .Site.Params.about.headline_1 }}
                     <h2 class="section-heading text-center">{{ . }}</h2>
+                <hr class="light">
                 {{ end }}
                 {{ with .Site.Params.about.description_1 }}
                     <p class="text-faded text-center">{{ . | markdownify }}</p>
                 {{ end }}
-                <hr class="light">
+                <br>
+                <br>
+                <br>
                 {{ with .Site.Params.about.headline_2 }}
                     <h2 class="section-heading text-center">{{ . }}</h2>
+                <hr class="light">
                 {{ end }}
                 {{ with .Site.Params.about.description_2 }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
+                    <p class="text-faded text-justify" style="padding:0px 130px 0px">{{ . | markdownify }}</p>
                 {{ end }}
             </div>
         </div>
