@@ -190,3 +190,10 @@ googleAnalytics = ""
       [params.aside.button]
         text = ""
         link = ""
+
+  # --------------------
+  # Prospectives section
+  # --------------------
+  [params.prospectives]
+		title = "PROSPECTIVE STUDENTS"
+		description = "Graduate school is not for everyone."
