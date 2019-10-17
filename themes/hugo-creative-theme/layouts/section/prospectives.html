@@ -48,7 +48,12 @@
                 {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
-                        <a class="page-scroll" href="/prospectives/">{{ .Site.Params.navigation.links.contact }}</a>
+                        <a class="page-scroll" href="../#contact">{{ .Site.Params.navigation.links.contact }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.contact .Site.Params.navigation.links.prospectives }}
+                    <li>
+                        <a class="page-scroll" href="/prospectives/">{{ .Site.Params.navigation.links.prospectives }}</a>
                     </li>
                 {{ end }}
             </ul>
