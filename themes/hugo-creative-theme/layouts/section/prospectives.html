@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {{ with .Site.Params.navigation.brand }}
+                <a class="navbar-brand page-scroll" href="../#page-top">{{ . | markdownify }}</a>
+            {{ end }}
+        </div>
+        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
+                    <li>
+                        <a class="page-scroll" href="../#about">{{ .Site.Params.navigation.links.about }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.team .Site.Params.navigation.links.team }}
+                    <li>
+                        <a class="page-scroll" href="../#team">{{ .Site.Params.navigation.links.team }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
+                    <li>
+                        <a class="page-scroll" href="../#services">{{ .Site.Params.navigation.links.services }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
+                    <li>
+                        <a class="page-scroll" href="../#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
+                <li>
+                    <a class="page-scroll" href="../#location">{{ .Site.Params.navigation.links.location }}</a>
+                </li>
+                {{ end }}
+                {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
+                    <li>
+                        <a class="page-scroll" href="/prospectives/">{{ .Site.Params.navigation.links.contact }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+    </div>
+    {{ "<!-- /.container-fluid -->" | safeHTML }}
+</nav>
+
+<section class="bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                {{ with .Site.Params.prospectives.title }}
+                    <h2 class="section-heading text-center">{{ . | markdownify }}</h2>
+                {{ end }}
+                <hr class="light">
+                {{ with .Site.Params.prospectives.description }}
+                    <p class="text-faded text-center">{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+        {{ if .Site.Params.footer.enable }}
+            {{ partial "footer.html" . }}
+        {{ end }}
+
+        {{ partial "js.html" . }}
+
+        {{ template "_internal/google_analytics.html" . }}
+    </body>
+</html>
