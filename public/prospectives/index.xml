@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prospectives on Scheuerell Lab</title>
-    <link>/prospectives/</link>
+    <link>https://depts.washington.edu/appliedecology/prospectives/</link>
     <description>Recent content in Prospectives on Scheuerell Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/prospectives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://depts.washington.edu/appliedecology/prospectives/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
