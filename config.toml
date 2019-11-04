@@ -95,7 +95,7 @@ googleAnalytics = ""
       position = "Sleepy Cat"
       img = "ashes.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Ashes loves to avoid people and sleep while doing it."
+      bio = "Ashes loves to avoid people and sleep while doing it. During the few hours a day she is awake, Ashes can sometimes be heard asking to be fed."
       social = [
         ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
         ]
