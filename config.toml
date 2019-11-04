@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://depts.washington.edu/appliedecology/"
 languageCode = "en-us"
 title = "Scheuerell Lab"
 theme = "hugo-creative-theme"
