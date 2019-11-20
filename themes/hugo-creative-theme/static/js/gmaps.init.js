@@ -54,7 +54,7 @@ function map () {
     map.addMarker({
       lat: lat,
       lng: lng,
-      icon: image /* ,
+      /* icon: image,
       title: '',
       infoWindow: {
       content: '<p>HTML Content</p>'
