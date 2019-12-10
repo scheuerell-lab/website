@@ -85,7 +85,7 @@ googleAnalytics = ""
       position = "Undergraduate researcher"
       img = "Kerrianne.JPG"
       # For bio, markdown and multiline strings are possible.
-      bio = "Kerrianne is a senior in the Program of the Environment at the University of Washington. She’s currently researching circuli patterns in juvenile salmon scales for her undergraduate capstone and has a background in salmonid aquaculture and restoration with her main focus being fisheries management. In her downtime, she enjoys traveling, camping, playing with her puppy (Chase), and cooking. She prides herself on creating Instagram-worthy charcuterie boards, and her exceptional 4.5 Uber rating."
+      bio = "Kerrianne is a senior in the UW Program of the Environment. She’s currently researching circuli patterns in juvenile salmon scales for her undergraduate capstone and has a background in salmonid aquaculture and restoration with her main focus being fisheries management. In her downtime, she enjoys traveling, camping, playing with her puppy (Chase), and cooking. She prides herself on creating Instagram-worthy charcuterie boards, and her exceptional 4.5 Uber rating."
       social = [
         ["fa-twitter", "https://twitter.com/KerrianneMcCar1"]
         ]
