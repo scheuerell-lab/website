@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://depts.washington.edu/appliedecology/"
 languageCode = "en-us"
 title = "Scheuerell Lab"
 theme = "hugo-creative-theme"
@@ -27,13 +27,13 @@ googleAnalytics = ""
 	# Navigation
 	# ----------
 	[params.navigation]
-		brand = "Scheuerell Lab"
+		brand = "Applied Ecology Lab"
 
 		[params.navigation.links]
 			about     = "About"
 			team      = "People"
 			services  = "Research"
-			portfolio = ""
+			prospectives = "Prospective Students"
 			contact   = "Contact"
 
 
@@ -42,8 +42,8 @@ googleAnalytics = ""
 	# ------------
 	[params.hero]
 		# To change the background of the hero section, replace 'header-bg.jpg' at './static/img'.
-    slogan = "Scheuerell Lab"
-    subtitle = "Applied ecology in a changing world"
+    slogan = "Applied Ecology Lab"
+    subtitle = "Science supporting conservation & management"
     buttonText = "Learn more"
 
 
@@ -54,7 +54,7 @@ googleAnalytics = ""
 		headline_1    = "MISSION"
 		description_1 = "Using our knowledge and skills to help solve real-world problems."
 		headline_2    = "VISION"
-		description_2 = "Our vision is to better understand and manage aquatic ecosystems through the integration of data, analysis, and communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to expand upon and improve our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
+		description_2 = "Our vision is to better understand and manage aquatic ecosystems through the integration of data, analysis, and communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to improve and expand upon our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
 		buttonText  = ""
 
 
@@ -105,7 +105,7 @@ googleAnalytics = ""
       position = "Sleepy Cat"
       img = "ashes.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Ashes loves to avoid people and sleep while doing it."
+      bio = "Ashes loves to avoid people and sleep while doing it. During the few hours a day she is awake, Ashes can sometimes be heard asking to be fed."
       social = [
         ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
         ]
@@ -116,7 +116,7 @@ googleAnalytics = ""
   # ---------------
   [params.services]
     headline = "OUR RESEARCH"
-    synopsis = "Research in the Scheuerell Lab focuses on the conservation and management of aquatic resources, particularly in Washington State and along the west coast of North America. Much of our research is focused on the development and application of statistical methods for analyzing temporal and spatial data, but we collect our own data as well. Please see below for some examples of recent projects in the lab. <br><br> In particular, our research relies on a combination of empirical data, quantitative analysis, and communication. We also pursue our scientific endeavors in an open science environment where we create accessible and reproducible workflows."
+    synopsis = "Research in the Applied Ecology Lab focuses on the conservation and management of aquatic resources, particularly within Washington State and along the west coast of North America. Much of our research is focused on the development and application of statistical methods for analyzing temporal and spatial data, but we collect our own data as well. Please see below for some examples of recent projects in our lab. <br><br> In particular, our research relies on a combination of empirical data, quantitative analysis, and communication. We also pursue our scientific endeavors in an open science environment where we create accessible and reproducible workflows."
     tenets = ""
       
     [[params.services.list]]
@@ -166,8 +166,8 @@ googleAnalytics = ""
 	# -------------------
 	[params.location]
 	 	map = 1
-	 	latitude  = "47.653311"
-	 	longitude = "-122.316222"
+	 	latitude  = "47.652639"
+	 	longitude = "-122.316389"
 	 	maps_api_key = "AIzaSyCOM_4Igg4AmZuG4Hv7KUqzSDvOiA8iu9A"
 
 	# --------------
@@ -200,3 +200,9 @@ googleAnalytics = ""
       [params.aside.button]
         text = ""
         link = ""
+
+  # --------------------
+  # Prospectives section
+  # --------------------
+  [params.prospectives]
+		title = "PROSPECTIVE STUDENTS"
