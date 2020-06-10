@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/appliedecology/categories/</loc>
+    <loc>https://depts.washington.edu/appliedecology/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/appliedecology/prospectives/</loc>
+    <loc>https://depts.washington.edu/appliedecology/prospectives/</loc>
   </url>
   
   <url>
-    <loc>/appliedecology/</loc>
+    <loc>https://depts.washington.edu/appliedecology/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/appliedecology/tags/</loc>
+    <loc>https://depts.washington.edu/appliedecology/tags/</loc>
     <priority>0</priority>
   </url>
   
