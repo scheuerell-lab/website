@@ -175,7 +175,7 @@ googleAnalytics = ""
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2019 Mark Scheuerell"
+    copyright = "&copy; 2020 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"
