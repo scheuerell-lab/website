@@ -57,7 +57,9 @@ googleAnalytics = ""
 		headline_2    = "VISION"
 		description_2 = "Our vision is to better understand and manage aquatic ecosystems through the integration of data, analysis, and communication."
 		headline_3    = "VALUES"
-		description_3 = "We are dedicated to providing a welcoming and supportive environment for all people, regardless of their background, identity, physical appearance, or manner of communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to improve and expand upon our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
+		description_3 = "We are dedicated to providing a welcoming and supportive environment for all people, regardless of their background, identity, appearance, or manner of communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to improve and expand upon our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
+		headline_4    = "LAND ACKNOWLEDGMENT"
+		description_4 = "We acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as the tribes of the Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home."
 		buttonText  = ""
 
 
@@ -80,20 +82,42 @@ googleAnalytics = ""
       bio = "Mark's research interests lie at the intersection of ecology and management. He is broadly interested in the roles of natural and anthropogenic drivers on freshwater and coastal ecosystems, and the services we derive from them. You can find out more about Mark's research and teaching interests [**here**](https://faculty.washington.edu/scheuerl/).<br><br>Mark also appreciates a healthy work-life balance. In his free time, Mark enjoys cycling, skiing, and spending time with his family."
       social = [
         ["fa-twitter", "https://twitter.com/mark_scheuerell"],
-        ["fa-github", "https://github.com/mdscheuerell"],
+        ["fa-github", "https://github.com/mdscheuerell"]
       ]
 
-      [[params.team.members]]
+    [[params.team.members]]
+      name = "Kelly Mistry"
+      position = "MS Student"
+      img = "Kelly.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Kelly is a student in the Quantitative Ecology and Resource Management ([**QERM**](https://quantitative.uw.edu/graduate/degree-programs/)) program. Her work in the Applied Ecology lab focuses on improving spatiotemporal models used with groundfish stocks in the Gulf of Alaska in partnership with colleagues at [**NOAA Fisheries**](https://www.afsc.noaa.gov/). Kelly comes to science from a previous career in nonprofit administration, fundraising and science communication, having earned a BA in cultural history and religion in 2011. She has lived in Seattle for over 9 years, and spends most of her free time working on improving (i.e. fixing) the boat that she lives on with her husband and two pets. Kelly is always happy to talk with anyone considering graduate school coming from a non-traditional or first gen background and is committed to increasing inclusion and equity in STEM fields and academic institutions."
+      social = [
+        ["fa-twitter", "https://twitter.com/TactileAlchemy"],
+        ["fa-github", "https://github.com/krmistry"]
+        ]
+      
+    [[params.team.members]]
+      name = "Markus Min"
+      position = "MS Student"
+      img = "Markus.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Markus’s academic and research interests are primarily focused on the application of ecological and statistical models to the management of marine ecosystems and fisheries. Prior to coming to SAFS, he completed his BS in Marine Biology at UCLA and worked as a research assistant in the Biological Oceanography Group at the Monterey Bay Aquarium Research Institute (MBARI). While his research at both UCLA and MBARI was focused on the new, exciting field of environmental DNA (eDNA), it was his time spent studying groundfish as an intern at the Northwest Fisheries Science Center that inspired him to return to Seattle to study fisheries science and marine ecology at SAFS. In addition to his academic interests, Markus enjoys playing music, baking, fishing, hiking, and watching hockey (he also hopes to one day play, but he needs to learn how to skate first)."
+      social = [
+        ["fa-twitter", "https://twitter.com/markusamin"],
+        ["fa-github", "https://github.com/markusmin"]
+        ]
+      
+    [[params.team.members]]
       name = "Kerrianne McCarthy"
-      position = "Undergraduate researcher"
+      position = "Undergraduate researcher (2019-2020)"
       img = "Kerrianne_M.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Kerrianne is a senior in the [UW Program on the Environment](https://envstudies.uw.edu/), with a background in salmonid aquaculture and restoration, and a focus on fisheries management. She’s currently analyzing circuli patterns in juvenile salmon scales for her undergraduate [Capstone Project](https://envstudies.uw.edu/undergraduate-students/course-planning/course-requirements/capstone/) in collaboration with scientists from [NOAA Fisheries](https://www.nwfsc.noaa.gov/). In her downtime, Kerrianne enjoys traveling, camping, cooking, and playing with her puppy Chase. She prides herself on creating Instagram-worthy charcuterie boards, and her exceptional 4.5-star Uber rating."
+      bio = "Kerrianne was a senior in the [**UW Program on the Environment**](https://envstudies.uw.edu/), with a background in salmonid aquaculture and restoration, and a focus on fisheries management. She analyzed circuli patterns in juvenile salmon scales for her undergraduate [**Capstone Project**](https://envstudies.uw.edu/undergraduate-students/course-planning/course-requirements/capstone/) in collaboration with scientists from [**NOAA Fisheries**](https://www.nwfsc.noaa.gov/). In her downtime, Kerrianne enjoys traveling, camping, cooking, and playing with her puppy Chase. She prides herself on creating Instagram-worthy charcuterie boards, and her exceptional 4.5-star Uber rating."
       social = [
         ["fa-twitter", "https://twitter.com/KerrianneMcCar1"]
         ]
       
-      [[params.team.members]]
+    [[params.team.members]]
       name = "Pat Chris"
       position = "Future lab member"
       img = "cassette.jpg"
@@ -171,7 +195,7 @@ googleAnalytics = ""
 	 	map = 1
 	 	latitude  = "47.652639"
 	 	longitude = "-122.316389"
-	 	maps_api_key = ""
+	 	maps_api_key = "AIzaSyAxsu0W_mmQ55JX0lA-UPQr4IIDqEFkrGs"
 
 	# --------------
 	# Footer section
