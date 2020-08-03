@@ -30,6 +30,16 @@
                 {{ with .Site.Params.about.description_3 }}
                     <p class="text-faded text-justify" style="padding:0px 130px 0px">{{ . | markdownify }}</p>
                 {{ end }}
+                <br>
+                <br>
+                <br>
+                {{ with .Site.Params.about.headline_4 }}
+                    <h2 class="section-heading text-center">{{ . }}</h2>
+                <hr class="light">
+                {{ end }}
+                {{ with .Site.Params.about.description_4 }}
+                    <p class="text-faded text-justify" style="padding:0px 130px 0px">{{ . | markdownify }}</p>
+                {{ end }}
             </div>
         </div>
     </div>
