@@ -195,7 +195,7 @@ googleAnalytics = ""
 	 	map = 1
 	 	latitude  = "47.652639"
 	 	longitude = "-122.316389"
-	 	maps_api_key = "AIzaSyAxsu0W_mmQ55JX0lA-UPQr4IIDqEFkrGs"
+	 	maps_api_key = ""
 
 	# --------------
 	# Footer section
