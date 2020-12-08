@@ -2,7 +2,7 @@ baseurl = "https://depts.washington.edu/appliedecology/"
 languageCode = "en-us"
 title = "Scheuerell Lab"
 theme = "hugo-creative-theme"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$", "_cache$"]
 disableKinds = ["taxonomy", "taxonomyTerm"]
 googleAnalytics = ""
 
@@ -123,12 +123,12 @@ googleAnalytics = ""
       position = "MS Student"
       img = "Karl.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Before joining SAFS, Karl worked as a contract fisheries biologist at NOAA’s Northwest Fisheries Science Center for the past five years. He was employed on a wide variety of research projects geographically ranging from shellfish farms in Puget Sound, to the lower Columbia River, to high altitude spawning grounds in the Salmon River Basin, Idaho. In particular his work has focused on using stable isotope ecology to better understand food web dynamics in various freshwater systems, analyzing otoliths to estimate past somatic growth of juvenile fish, and more recently, examining the habitat function of Puget Sound shellfish farms using underwater video. Karl obtained a B.S. in environmental sciences from Western Washington University in 2014. In his free time Karl makes and sells fine furniture with his father in their woodshop, enjoys skiing and other outdoor activities, drinks and brews beer with his friends, and goes on walks to say hello to his various neighborhood cat friends."
+      bio = "Before joining SAFS, Karl worked at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center) on a wide variety of research projects ranging from shellfish farms in Puget Sound, to the lower Columbia River, to high altitude salmon spawning grounds in the Salmon River Basin, Idaho. In particular, his work has focused on using stable isotopes to better understand food web dynamics, analyzing otoliths to estimate past somatic growth of juvenile fish, and more recently, examining the habitat function of Puget Sound shellfish farms using underwater video. Karl obtained a BS in environmental sciences from Western Washington University in 2014. In his free time Karl makes and sells fine furniture with his father in their woodshop, enjoys skiing and other outdoor activities, drinks and brews beer with his friends, and goes on walks to say hello to his various neighborhood cats."
       social = [
         ["fa-instagram", "https://www.instagram.com/itsahardwoodlife"],
         ["fa-github", "https://github.com/kvegg"]
         ]
-      
+        
     [[params.team.members]]
       name = "Kerrianne McCarthy"
       position = "Undergraduate researcher (2019-2020)"
