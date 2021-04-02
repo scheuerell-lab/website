@@ -5,6 +5,7 @@ theme = "hugo-creative-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$", "_cache$"]
 disableKinds = ["taxonomy", "taxonomyTerm"]
 googleAnalytics = ""
+relativeurls = false
 
 [params]
 
@@ -123,7 +124,7 @@ googleAnalytics = ""
       position = "MS Student"
       img = "Karl.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Before joining SAFS, Karl worked at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center) on a wide variety of research projects ranging from shellfish farms in Puget Sound, to the lower Columbia River, to high altitude salmon spawning grounds in the Salmon River Basin, Idaho. In particular, his work has focused on using stable isotopes to better understand food web dynamics, analyzing otoliths to estimate past somatic growth of juvenile fish, and more recently, examining the habitat function of Puget Sound shellfish farms using underwater video. Karl obtained a BS in environmental sciences from Western Washington University in 2014. In his free time Karl makes and sells fine furniture with his father in their woodshop, enjoys skiing and other outdoor activities, drinks and brews beer with his friends, and goes on walks to say hello to his various neighborhood cats."
+      bio = "Before joining SAFS, Karl worked at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center) on a wide variety of research projects ranging from shellfish farms in Puget Sound, to the lower Columbia River, to high altitude salmon spawning grounds in the Salmon River Basin, Idaho. In particular, his work has focused on using stable isotopes to better understand food web dynamics, analyzing otoliths to estimate past somatic growth of juvenile fish, and more recently, examining the habitat function of Puget Sound shellfish farms using underwater video. Karl obtained a BS in environmental sciences from Western Washington University in 2014. In his free time Karl makes and sells fine furniture with his father in their woodshop, enjoys skiing and other outdoor activities, drinks and brews beer with his friends, and goes on walks to say hello to the cats in his neighborhood."
       social = [
         ["fa-instagram", "https://www.instagram.com/itsahardwoodlife"],
         ["fa-github", "https://github.com/kvegg"]
@@ -217,7 +218,7 @@ googleAnalytics = ""
 	 	map = 1
 	 	latitude  = "47.652639"
 	 	longitude = "-122.316389"
-	 	maps_api_key = ""
+	 	maps_api_key = "AIzaSyBaesHJwVrTa-Bvw9wCyMipQdYHmFobv4A"
 
 	# --------------
 	# Footer section
