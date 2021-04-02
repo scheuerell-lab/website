@@ -218,7 +218,7 @@ relativeurls = false
 	 	map = 1
 	 	latitude  = "47.652639"
 	 	longitude = "-122.316389"
-	 	maps_api_key = "AIzaSyBaesHJwVrTa-Bvw9wCyMipQdYHmFobv4A"
+	 	maps_api_key = ""
 
 	# --------------
 	# Footer section
