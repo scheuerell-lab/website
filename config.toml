@@ -131,6 +131,17 @@ relativeurls = false
         ]
         
     [[params.team.members]]
+      name = "Nicole Doran"
+      position = "MS Student"
+      img = "Nicole.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Nicole is a 2019 [**Udall Scholar**](https://www.udall.gov/OurPrograms/Scholarship/MeetScholars.aspx) and recent graduate from The Ohio State University where she obtained a BS in Biology, and minored in American Indian Studies. During undergrad, Nicole developed an interest in applied ecology, conservation, and resource management. Prior to coming to SAFS Nicole spent a year working at the Cincinnati Children’s Hospital’s COVID-19 PCR testing laboratory, but she is excited to be returning to school at UW for graduate study. Nicole is excited to explore new research interests in the field of fisheries science, as well as exploring the Pacific Northwest! In her free time, she enjoys cooking, painting, spending time outdoors, and playing Assassin’s Creed. At UW Nicole is looking forward to continuing her involvement in SACNAS, mentoring students, and advocating for greater inclusion and efforts to uphold tribal sovereignty in STEM."
+      social = [
+        ["fa-twitter", "https://twitter.com/NicoleDoran10"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
+        ]
+        
+    [[params.team.members]]
       name = "Kerrianne McCarthy"
       position = "Undergraduate researcher (2019-2020)"
       img = "Kerrianne_M.jpg"
@@ -225,7 +236,7 @@ relativeurls = false
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2020 Mark Scheuerell"
+    copyright = "&copy; 2021 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"
