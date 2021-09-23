@@ -142,15 +142,16 @@ relativeurls = false
         ]
         
     [[params.team.members]]
-      name = "Kerrianne McCarthy"
-      position = "Undergraduate researcher (2019-2020)"
-      img = "Kerrianne_M.jpg"
+      name = "Andrea Hennings"
+      position = "MS Student"
+      img = "Andrea.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Kerrianne was a senior in the [**UW Program on the Environment**](https://envstudies.uw.edu/), with a background in salmonid aquaculture and restoration, and a focus on fisheries management. She analyzed circuli patterns in juvenile salmon scales for her undergraduate [**Capstone Project**](https://envstudies.uw.edu/undergraduate-students/course-planning/course-requirements/capstone/) in collaboration with scientists from [**NOAA Fisheries**](https://www.nwfsc.noaa.gov/). In her downtime, Kerrianne enjoys traveling, camping, cooking, and playing with her puppy Chase. She prides herself on creating Instagram-worthy charcuterie boards, and her exceptional 4.5-star Uber rating."
+      bio = "Andrea is a biologist with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) Marine Fish Science Unit where she is the Unit’s remotely operated vehicle (ROV) program data manager, video annotation supervisor, and field coordinator, as well as an ROV pilot. In this position, her work supports long-term monitoring and population assessments of Salish Sea groundfish, principally rockfish and lingcod, in untrawlable habitats. Prior to WDFW, Andrea was support staff to the Snohomish County Marine Resources Committee (MRC) where she contributed to a range of projects, including the development of a derelict crabbing gear education and outreach program and the regional citizen science expansion of the NOAA Mussel Watch water quality program. When she’s not looking at fish on a computer, Andrea enjoys growing her own food, skiing, and sailing with her husband and rescue dog."
       social = [
-        ["fa-twitter", "https://twitter.com/KerrianneMcCar1"]
+        ["fa-twitter", "https://twitter.com/WDFW"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
         ]
-      
+        
     [[params.team.members]]
       name = "Pat Chris"
       position = "Future lab member"
