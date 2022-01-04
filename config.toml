@@ -98,17 +98,6 @@ relativeurls = false
         ]
       
     [[params.team.members]]
-      name = "Cat Wangen"
-      position = "PhD Student"
-      img = "Cat.png"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Cat is a student in the Quantitative Ecology and Resource Management ([**QERM**](https://quantitative.uw.edu/graduate/degree-programs/)) program. She received a Bachelor’s degree in Ecology and Evolutionary Biology from the University of Michigan, and afterwards worked as an ecologist in both the field and lab. Cat returned to graduate school at Utah State University, earning a Master’s degree in Statistics. Her thesis at Utah State University focused on developing a phenological model for a southern population of mountain pine beetle. Cat’s work in the Applied Ecology Lab focuses on designing a monitoring program for toxic contaminants in Puget Sound’s nearshore habitat in partnership with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW). Cat is generally interested in applying mathematics and statistics to ecological questions, especially those with real world impacts."
-      social = [
-        ["fa-twitter", "https://twitter.com/UW_SAFS"],
-        ["fa-github", "https://github.com/cwangen"]
-        ]
-      
-    [[params.team.members]]
       name = "Kelly Mistry"
       position = "MS Student"
       img = "Kelly.jpg"
@@ -146,7 +135,7 @@ relativeurls = false
       position = "MS Student"
       img = "Nicole.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Nicole is a 2019 [**Udall Scholar**](https://www.udall.gov/OurPrograms/Scholarship/MeetScholars.aspx) and recent graduate from The Ohio State University where she obtained a BS in Biology, and minored in American Indian Studies. During undergrad, Nicole developed an interest in applied ecology, conservation, and resource management. Prior to coming to SAFS Nicole spent a year working at the Cincinnati Children’s Hospital’s COVID-19 PCR testing laboratory, but she is excited to be returning to school at UW for graduate study. Nicole is excited to explore new research interests in the field of fisheries science, as well as exploring the Pacific Northwest! In her free time, she enjoys cooking, painting, spending time outdoors, and playing Assassin’s Creed. At UW Nicole is looking forward to continuing her involvement in SACNAS, mentoring students, and advocating for greater inclusion and efforts to uphold tribal sovereignty in STEM."
+      bio = "Nicole is a 2019 [**Udall Scholar**](https://www.udall.gov/OurPrograms/Scholarship/MeetScholars.aspx) and recent graduate from The Ohio State University where she obtained a BS in Biology, and minored in American Indian Studies. During undergrad, Nicole developed an interest in applied ecology, conservation, and resource management. Prior to coming to SAFS Nicole spent a year working at the Cincinnati Children’s Hospital’s COVID-19 PCR testing laboratory, but she is excited to be returning to school at UW for graduate study. Nicole is excited to explore new research interests in the field of fisheries science, as well as exploring the Pacific Northwest! In her free time, she enjoys cooking, painting, spending time outdoors, and playing video games. At UW Nicole is looking forward to continuing her involvement in SACNAS, mentoring students, and advocating for greater inclusion and efforts to uphold tribal sovereignty in STEM."
       social = [
         ["fa-twitter", "https://twitter.com/NicoleDoran10"],
         ["fa-github", "https://github.com/scheuerell-lab"]
@@ -164,6 +153,17 @@ relativeurls = false
         ]
         
     [[params.team.members]]
+      name = "Cat Wangen"
+      position = "PhD Student"
+      img = "Cat.png"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Cat is a student in the Quantitative Ecology and Resource Management ([**QERM**](https://quantitative.uw.edu/graduate/degree-programs/)) program. She received a Bachelor’s degree in Ecology and Evolutionary Biology from the University of Michigan, and afterwards worked as an ecologist in both the field and lab. Cat returned to graduate school at Utah State University, earning a Master’s degree in Statistics. Her thesis at Utah State University focused on developing a phenological model for a southern population of mountain pine beetle. Cat’s work in the Applied Ecology Lab focuses on designing a monitoring program for toxic contaminants in Puget Sound’s nearshore habitat in partnership with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW). Cat is generally interested in applying mathematics and statistics to ecological questions, especially those with real world impacts."
+      social = [
+        ["fa-twitter", "https://twitter.com/UW_SAFS"],
+        ["fa-github", "https://github.com/cwangen"]
+        ]
+      
+    [[params.team.members]]
       name = "Pat Chris"
       position = "Future lab member"
       img = "cassette.jpg"
@@ -173,17 +173,7 @@ relativeurls = false
        ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
       ]
 
-    [[params.team.members]]
-      name = "Ashes Kittyball"
-      position = "Sleepy Cat"
-      img = "ashes.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Ashes loves to avoid people and sleep while doing it. During the few hours a day she is awake, Ashes can sometimes be heard asking to be fed."
-      social = [
-        ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
-        ]
-      
-      
+
   # ---------------
   # Service section
   # ---------------
@@ -241,14 +231,14 @@ relativeurls = false
 	 	map = 1
 	 	latitude  = "47.652639"
 	 	longitude = "-122.316389"
-	 	maps_api_key = ""
+	 	maps_api_key = "AIzaSyAa69_3uFLOiUDc9FKfr8x00NAuAP04L0c"
 
 	# --------------
 	# Footer section
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2021 Mark Scheuerell"
+    copyright = "&copy; 2022 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"
