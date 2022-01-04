@@ -98,6 +98,17 @@ relativeurls = false
         ]
       
     [[params.team.members]]
+      name = "Cat Wangen"
+      position = "PhD Student"
+      img = "Cat.png"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Cat is a student in the Quantitative Ecology and Resource Management ([**QERM**](https://quantitative.uw.edu/graduate/degree-programs/)) program. She received a Bachelor’s degree in Ecology and Evolutionary Biology from the University of Michigan, and afterwards worked as an ecologist in both the field and lab. Cat returned to graduate school at Utah State University, earning a Master’s degree in Statistics. Her thesis at Utah State University focused on developing a phenological model for a southern population of mountain pine beetle. Cat’s work in the Applied Ecology Lab focuses on designing a monitoring program for toxic contaminants in Puget Sound’s nearshore habitat in partnership with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW). Cat is generally interested in applying mathematics and statistics to ecological questions, especially those with real world impacts."
+      social = [
+        ["fa-twitter", "https://twitter.com/UW_SAFS"],
+        ["fa-github", "https://github.com/cwangen"]
+        ]
+      
+    [[params.team.members]]
       name = "Kelly Mistry"
       position = "MS Student"
       img = "Kelly.jpg"
