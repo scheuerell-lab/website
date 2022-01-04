@@ -220,7 +220,7 @@ relativeurls = false
   # ---------------
   [params.contact]
 		headline = "Contact info"
-		description = "School of Aquatic and Fishery Sciences<br>University of Washington<br>PO Box 355020<br>Seattle, WA 98195-5020"
+		description = "School of Aquatic and Fishery Sciences, University of Washington, PO Box 355020, Seattle, WA 98195-5020"
 		phone = ""
 		email = "scheuerl@uw.edu"
 
@@ -231,7 +231,7 @@ relativeurls = false
 	 	map = 1
 	 	latitude  = "47.652639"
 	 	longitude = "-122.316389"
-	 	maps_api_key = "AIzaSyAa69_3uFLOiUDc9FKfr8x00NAuAP04L0c"
+	 	maps_api_key = ""
 
 	# --------------
 	# Footer section
