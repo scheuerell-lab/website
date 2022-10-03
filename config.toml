@@ -98,17 +98,6 @@ relativeurls = false
         ]
       
     [[params.team.members]]
-      name = "Kelly Mistry"
-      position = "MS Student"
-      img = "Kelly.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Kelly is a student in the Quantitative Ecology and Resource Management ([**QERM**](https://quantitative.uw.edu/graduate/degree-programs/)) program. Her work in the Applied Ecology lab focuses on improving spatiotemporal models used with groundfish stocks in the Gulf of Alaska in partnership with colleagues at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center). Kelly comes to science from a previous career in nonprofit administration, fundraising and science communication, having earned a BA in cultural history and religion in 2011. Originally from Alaska, she has lived in Seattle for over 9 years. Kelly spends most of her free time working on improving (fixing) the boat that she lives on with her husband and two pets. Kelly is always happy to talk with anyone considering graduate school coming from a non-traditional or first-gen background, and she is committed to increasing inclusion and equity in STEM fields and academic institutions. Find out more about Kelly [**here**](https://www.kellyrmistry.com/)."
-      social = [
-        ["fa-twitter", "https://twitter.com/TactileAlchemy"],
-        ["fa-github", "https://github.com/krmistry"]
-        ]
-      
-    [[params.team.members]]
       name = "Markus Min"
       position = "MS Student"
       img = "Markus.jpg"
@@ -152,27 +141,13 @@ relativeurls = false
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
-    [[params.team.members]]
-      name = "Cat Wangen"
-      position = "PhD Student"
-      img = "Cat.png"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Cat is a student in the Quantitative Ecology and Resource Management ([**QERM**](https://quantitative.uw.edu/graduate/degree-programs/)) program. She received a Bachelor’s degree in Ecology and Evolutionary Biology from the University of Michigan, and afterwards worked as an ecologist in both the field and lab. Cat returned to graduate school at Utah State University, earning a Master’s degree in Statistics. Her thesis at Utah State University focused on developing a phenological model for a southern population of mountain pine beetle. Cat’s work in the Applied Ecology Lab focuses on designing a monitoring program for toxic contaminants in Puget Sound’s nearshore habitat in partnership with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW). Cat is generally interested in applying mathematics and statistics to ecological questions, especially those with real world impacts."
-      social = [
-        ["fa-twitter", "https://twitter.com/UW_SAFS"],
-        ["fa-github", "https://github.com/cwangen"]
+    [[params.team.former]]
+      people = [
+        [" "],
+        ["Kerrianne McCarthy (Undergrad capstone, 2020)"],
+        ["Kelly Mistry (MS,  2022)", "fa-link", "https://www.kellyrmistry.com/"],
+        ["Catherine Wangen (MS+, 2022)", "fa-link", "https://github.com/cwangen"],
         ]
-      
-    [[params.team.members]]
-      name = "Pat Chris"
-      position = "Future lab member"
-      img = "cassette.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Pat is a great team player and a pleasure to be around. Pat has been known to make a mistake on occasion, but they also understand that we can always learn from them as well. Outside of academia, Pat enjoys competitive dog grooming, mountain unicycling, and gardening."
-      social = [
-       ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
-      ]
-
 
   # ---------------
   # Service section
