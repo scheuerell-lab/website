@@ -5,6 +5,7 @@ theme = "hugo-creative-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$", "_cache$"]
 disableKinds = ["taxonomy", "taxonomyTerm"]
 googleAnalytics = ""
+relativeurls = false
 
 [params]
 
@@ -97,17 +98,6 @@ googleAnalytics = ""
         ]
       
     [[params.team.members]]
-      name = "Kelly Mistry"
-      position = "MS Student"
-      img = "Kelly.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Kelly is a student in the Quantitative Ecology and Resource Management ([**QERM**](https://quantitative.uw.edu/graduate/degree-programs/)) program. Her work in the Applied Ecology lab focuses on improving spatiotemporal models used with groundfish stocks in the Gulf of Alaska in partnership with colleagues at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center). Kelly comes to science from a previous career in nonprofit administration, fundraising and science communication, having earned a BA in cultural history and religion in 2011. Originally from Alaska, she has lived in Seattle for over 9 years. Kelly spends most of her free time working on improving (fixing) the boat that she lives on with her husband and two pets. Kelly is always happy to talk with anyone considering graduate school coming from a non-traditional or first-gen background, and she is committed to increasing inclusion and equity in STEM fields and academic institutions. Find out more about Kelly [**here**](https://www.kellyrmistry.com/)."
-      social = [
-        ["fa-twitter", "https://twitter.com/TactileAlchemy"],
-        ["fa-github", "https://github.com/krmistry"]
-        ]
-      
-    [[params.team.members]]
       name = "Markus Min"
       position = "MS Student"
       img = "Markus.jpg"
@@ -121,45 +111,44 @@ googleAnalytics = ""
     [[params.team.members]]
       name = "Karl Veggerby"
       position = "MS Student"
-      img = "Karl.jpg"
+      img = "Karl_V.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Before joining SAFS, Karl worked at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center) on a wide variety of research projects ranging from shellfish farms in Puget Sound, to the lower Columbia River, to high altitude salmon spawning grounds in the Salmon River Basin, Idaho. In particular, his work has focused on using stable isotopes to better understand food web dynamics, analyzing otoliths to estimate past somatic growth of juvenile fish, and more recently, examining the habitat function of Puget Sound shellfish farms using underwater video. Karl obtained a BS in environmental sciences from Western Washington University in 2014. In his free time Karl makes and sells fine furniture with his father in their woodshop, enjoys skiing and other outdoor activities, drinks and brews beer with his friends, and goes on walks to say hello to his various neighborhood cats."
+      bio = "Before joining SAFS, Karl worked at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center) on a wide variety of research projects ranging from shellfish farms in Puget Sound, to the lower Columbia River, to high altitude salmon spawning grounds in the Salmon River Basin, Idaho. In particular, his work has focused on using stable isotopes to better understand food web dynamics, analyzing otoliths to estimate past somatic growth of juvenile fish, and more recently, examining the habitat function of Puget Sound shellfish farms using underwater video. Karl obtained a BS in environmental sciences from Western Washington University in 2014. In his free time Karl makes and sells fine furniture with his father in their woodshop, enjoys skiing and other outdoor activities, drinks and brews beer with his friends, and goes on walks to say hello to the cats in his neighborhood."
       social = [
         ["fa-instagram", "https://www.instagram.com/itsahardwoodlife"],
         ["fa-github", "https://github.com/kvegg"]
         ]
         
     [[params.team.members]]
-      name = "Kerrianne McCarthy"
-      position = "Undergraduate researcher (2019-2020)"
-      img = "Kerrianne_M.jpg"
+      name = "Nicole Doran"
+      position = "MS Student"
+      img = "Nicole.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Kerrianne was a senior in the [**UW Program on the Environment**](https://envstudies.uw.edu/), with a background in salmonid aquaculture and restoration, and a focus on fisheries management. She analyzed circuli patterns in juvenile salmon scales for her undergraduate [**Capstone Project**](https://envstudies.uw.edu/undergraduate-students/course-planning/course-requirements/capstone/) in collaboration with scientists from [**NOAA Fisheries**](https://www.nwfsc.noaa.gov/). In her downtime, Kerrianne enjoys traveling, camping, cooking, and playing with her puppy Chase. She prides herself on creating Instagram-worthy charcuterie boards, and her exceptional 4.5-star Uber rating."
+      bio = "Nicole is interested in studying culturally important fishery species that have been impacted by environmental change. Her current thesis work involves studying the impacts of urbanization, climate change, and predation by introduced species on Kokanee salmon in Lake Sammamish. Nicole is passionate about increasing equity and inclusion in STEM through her involvement with the SAFS Equity and Inclusion Committee and organizations such as the American Indian Science and Engineering Society and Society for the Advancements of Chicanos/Hispanics and Native Americans in Science. Outside of work, Nicole enjoys reading, cooking, and playing video games. Feel free to reach out if you have questions about the lab, her research, or how to support DEI in STEM!"
       social = [
-        ["fa-twitter", "https://twitter.com/KerrianneMcCar1"]
+        ["fa-twitter", "https://twitter.com/NicoleDoran10"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
         ]
-      
+        
     [[params.team.members]]
-      name = "Pat Chris"
-      position = "Future lab member"
-      img = "cassette.jpg"
+      name = "Andrea Hennings"
+      position = "MS Student"
+      img = "Andrea.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Pat is a great team player and a pleasure to be around. Pat has been known to make a mistake on occasion, but they also understand that we can always learn from them as well. Outside of academia, Pat enjoys competitive dog grooming, mountain unicycling, and gardening."
+      bio = "Andrea is a biologist with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) Marine Fish Science Unit where she is the Unit’s remotely operated vehicle (ROV) program data manager, video annotation supervisor, and field coordinator, as well as an ROV pilot. In this position, her work supports long-term monitoring and population assessments of Salish Sea groundfish, principally rockfish and lingcod, in untrawlable habitats. Prior to WDFW, Andrea was support staff to the Snohomish County Marine Resources Committee (MRC) where she contributed to a range of projects, including the development of a derelict crabbing gear education and outreach program and the regional citizen science expansion of the NOAA Mussel Watch water quality program. When she’s not looking at fish on a computer, Andrea enjoys growing her own food, skiing, and sailing with her husband and rescue dog."
       social = [
-       ["fa-twitter", "https://twitter.com/search?q=%23wellrounded"]
-      ]
+        ["fa-twitter", "https://twitter.com/WDFW"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
+        ]
+        
+    [[params.team.former]]
+      people = [
+        [" "],
+        ["Kerrianne McCarthy (Undergrad capstone, 2020)"],
+        ["Kelly Mistry (MS,  2022)", "fa-link", "https://www.kellyrmistry.com/"],
+        ["Catherine Wangen (MS+, 2022)", "fa-link", "https://github.com/cwangen"],
+        ]
 
-    [[params.team.members]]
-      name = "Ashes Kittyball"
-      position = "Sleepy Cat"
-      img = "ashes.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Ashes loves to avoid people and sleep while doing it. During the few hours a day she is awake, Ashes can sometimes be heard asking to be fed."
-      social = [
-        ["fa-twitter", "https://twitter.com/search?q=%23CatsOfTwitter"]
-        ]
-      
-      
   # ---------------
   # Service section
   # ---------------
@@ -206,7 +195,7 @@ googleAnalytics = ""
   # ---------------
   [params.contact]
 		headline = "Contact info"
-		description = "School of Aquatic and Fishery Sciences<br>University of Washington<br>PO Box 355020<br>Seattle, WA 98195-5020"
+		description = "School of Aquatic and Fishery Sciences, University of Washington, PO Box 355020, Seattle, WA 98195-5020"
 		phone = ""
 		email = "scheuerl@uw.edu"
 
@@ -224,7 +213,7 @@ googleAnalytics = ""
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2020 Mark Scheuerell"
+    copyright = "&copy; 2022 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"
