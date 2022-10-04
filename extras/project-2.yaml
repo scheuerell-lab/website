@@ -1,0 +1,9 @@
+modalID: 2
+title: Food web intereactions
+subtitle: Development and application of time series models.
+date: 2019-09-01
+img: many_time_series.jpg
+client: Academic partners
+clientLink: "https://github.com/nwfsc-timeseries"
+category: Time Series Models
+description: "Together with [Eric Ward](https://ericward-noaa.github.io/) and [Steve Katz](https://labs.wsu.edu/katz/people/steve-katz-profile/), I have been developing and testing Bayesian time series models for estimating species interactions from community abundance data. This work expands upon other model development with [Eli Holmes](https://faculty.washington.edu/eeholmes/) and others. <br><br>You can find our data, code, and results [here](https://github.com/mdscheuerell/mar_sims)."
