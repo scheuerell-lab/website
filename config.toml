@@ -144,9 +144,9 @@ relativeurls = false
     [[params.team.former]]
       people = [
         [" "],
-        ["Kerrianne McCarthy (Undergrad capstone, 2020)"],
-        ["Kelly Mistry (MS,  2022)", "fa-link", "https://www.kellyrmistry.com/"],
-        ["Catherine Wangen (MS+, 2022)", "fa-link", "https://github.com/cwangen"],
+        ["Kerrianne McCarthy (Undergraduate, 2019-2020)"],
+        ["Kelly Mistry (MS Student,  2020-2022)", "fa-link", "https://www.kellyrmistry.com/"],
+        ["Catherine Wangen (Research Scientist, 2022)", "fa-link", "https://github.com/cwangen"],
         ]
 
   # ---------------
