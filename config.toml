@@ -157,7 +157,7 @@ relativeurls = false
       position = "Undergraduate Student"
       img = "Olivia.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Olivia is currently a senior at UW majoring in marine biology. Her journey towards studying marine biology was deeply inspired by her upbringing in Kodiak, Alaska. It seems only natural that Kodiak’s vast, rich marine ecosystem would capture Olivia's interest and guide her towards a career involving marine biology. Over the years, Olivia's passion for marine life has fueled her desire to join a field that would allow her to preserve our oceans. Olivia looks forward to gaining hands-on research experience here in our lab."
+      bio = "Olivia is currently a senior at UW majoring in marine biology. Her journey towards studying marine biology was deeply inspired by her upbringing in Kodiak, Alaska. It seems only natural that Kodiak’s vast, rich marine ecosystem would capture Olivia's interest and guide her towards a career involving marine biology. Over the years, Olivia's passion for marine life has fueled her desire to join a field that would allow her to preserve our oceans. This year, Olivia is participating in the [**IBIS Research Program**](https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program) where she will be working under the mentorship of Nicole Doran in our lab and gaining hands-on research experience."
       social = [
         ["fa-twitter", "https://twitter.com/UW_SAFS"],
         ["fa-github", "https://github.com/scheuerell-lab"]
