@@ -148,7 +148,7 @@ relativeurls = false
       # For bio, markdown and multiline strings are possible.
       bio = "Sarah is currently a junior pursuing a degree in Marine Biology, and is particularly interested in better understanding the influence environmental change is having on our ecosystems and individual species through statistical analysis and research. She has spent some time interning with NOAA Fisheries in both the Northwest Fisheries Science Center and the Northeast Fisheries Science Center, which has inspired her to continue pursuing research in this field. Her projects involved looking at anthropogenic impacts on locally important species, ranging from sea lions to spiny dogfish. This year, Sarah is participating in the [**IBIS Research Program**](https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program) where she will be working under the mentorship of Markus Min in our lab. Outside of academics, Sarah enjoys hiking, kayaking, and listening to music in the great outdoors, as well as painting."
       social = [
-        ["fa-twitter", "https://twitter.com/UW_SAFS"],
+        ["fa-instagram", "https://www.instagram.com/sarah_hensley8/"],
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
