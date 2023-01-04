@@ -235,7 +235,7 @@ relativeurls = false
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2022 Mark Scheuerell"
+    copyright = "&copy; 2023 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"
