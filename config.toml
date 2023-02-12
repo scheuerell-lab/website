@@ -88,13 +88,24 @@ relativeurls = false
 
     [[params.team.members]]
       name = "Dara Farrell"
-      position = "Post-doc"
+      position = "Postdoctoral Scholar"
       img = "Dara.jpg"
       # For bio, markdown and multiline strings are possible.
       bio = "Dara obtained her Ph.D. in  Mechanical Engineering from the University of Washington in Seattle in the summer of 2019 where the focus of her research was underwater acoustics – specifically anthropogenic and background noise characterization. Dara began her university career with a Bachelor’s degree in Chemical Engineering from the University of the West Indies in Trinidad & Tobago, and went on to complete her Masters degree in Environmental Engineering at the University of Illinois at Urbana Champaign on a Fulbright-LASPAU scholarship. She strives toward a multi-disciplinary approach to measuring, understanding and solving environmental problems, and uses machine learning, GIS and passive acoustics in her work. She finds great satisfaction in being involved in multi-disciplinary projects that allow her to hone her engineering- and acoustics-related skills."
       social = [
         ["fa-instagram", "https://www.instagram.com/mywondererslife/"],
         ["fa-github", "https://github.com/daramf"]
+        ]
+      
+    [[params.team.members]]
+      name = "Brian McGreal"
+      position = "PhD Student"
+      img = "Brian.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Brian's academic interests focus on management of common pool resources. He graduated from the University of Arizona in December 2021 with a MS in Applied Econometrics and Policy Analysis from the Department of Agricultural and Resource Economics. He was the primary author of the University of Arizona Water Resources Research Center’s 2021 _Arroyo, Groundwater Management – Past, Present and Future_ and 2022 _Arroyo, Water Resilience – Indigenous Perspectives_. Brian is currently pursuing a PhD in [Quantitative Ecology and Resource Management](https://quantitative.uw.edu/graduate/qerm/), where he's receiving intensive training in the application of statistical, mathematical, and decision sciences to terrestrial and aquatic ecology, natural resource management, biometrics, and mathematical biology. Brian's research involves best management practices for salmon populations."
+      social = [
+        ["fa-twitter", "https://twitter.com/UW_SAFS"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
         ]
       
     [[params.team.members]]
