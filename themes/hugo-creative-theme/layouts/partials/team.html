@@ -59,7 +59,8 @@
           <div class="team-member">
             <h2>FORMER LAB MEMBERS</h2>
             {{ range .people }}
-            <p>{{ index . 0 }} <a href="{{ index . 2 }}"><i class="fa {{ index . 1 }} text-primary"></i></a></p>
+            <h3>{{ index . 0 }} <a href="{{ index . 3 }}"><i class="fa {{ index . 2 }} text-primary"></i></a></h3>
+            <h4>{{ index . 1 }}</h4>
             {{ end }}
           </div>
       {{ end }}
