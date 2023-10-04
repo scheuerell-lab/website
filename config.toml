@@ -138,7 +138,7 @@ relativeurls = false
       bio = "Andrea is a biologist with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) Marine Fish Science Unit where she is the Unit’s remotely operated vehicle (ROV) program data manager, video annotation supervisor, and field coordinator, as well as an ROV pilot. In this position, her work supports long-term monitoring and population assessments of Salish Sea groundfish, principally rockfish and lingcod, in untrawlable habitats. Prior to WDFW, Andrea was support staff to the Snohomish County Marine Resources Committee (MRC) where she contributed to a range of projects, including the development of a derelict crabbing gear education and outreach program and the regional citizen science expansion of the NOAA Mussel Watch water quality program. When she’s not looking at fish on a computer, Andrea enjoys growing her own food, skiing, and sailing with her husband and rescue dog."
       social = [
         ["fa-twitter", "https://twitter.com/WDFW"],
-        ["fa-github", "https://github.com/scheuerell-lab"]
+        ["fa-github", "https://github.com/arhennings"]
         ]
         
     [[params.team.members]]
@@ -159,7 +159,7 @@ relativeurls = false
       # For bio, markdown and multiline strings are possible.
       bio = "Amirah recently graduated from Western Washington University with a BS in Marine and Coastal Science with a minor in Spanish. While at WWU, she took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at foundry10, the first undergraduate to teach a lab section of organismal biology, a peer mentor for the Marine and Coastal Science program and worked on the education team at Blue Zoo aquarium.  In addition to her studies in SAFS, Amirah is a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program. When she is not in the lab or doing schoolwork, Amirah enjoys going to the gym, exploring the city with friends, and watching her favorite TV shows."
       social = [
-        ["fa-twitter", "https://twitter.com/SAFS"],
+        ["fa brands fa-linkedin", "https://www.linkedin.com/in/amirah-casey-b77404a3/"],
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
