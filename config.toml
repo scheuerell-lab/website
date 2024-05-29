@@ -98,17 +98,6 @@ relativeurls = false
         ]
       
     [[params.team.members]]
-      name = "Brian McGreal"
-      position = "PhD Student"
-      img = "Brian.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Brian's academic interests focus on management of common pool resources. He graduated from the University of Arizona in December 2021 with a MS in Applied Econometrics and Policy Analysis from the Department of Agricultural and Resource Economics. He was the primary author of the University of Arizona Water Resources Research Center’s 2021 _Arroyo, Groundwater Management – Past, Present and Future_ and 2022 _Arroyo, Water Resilience – Indigenous Perspectives_. Brian is currently pursuing a PhD in [**Quantitative Ecology and Resource Management**](https://quantitative.uw.edu/graduate/qerm/), where he's receiving intensive training in the application of statistical, mathematical, and decision sciences to terrestrial and aquatic ecology, natural resource management, biometrics, and mathematical biology. Brian's research involves best management practices for salmon populations."
-      social = [
-        ["fa-twitter", "https://twitter.com/UW_SAFS"],
-        ["fa-github", "https://github.com/themacfreezie"]
-        ]
-      
-    [[params.team.members]]
       name = "Nicole Doran"
       position = "PhD Student"
       img = "Nicole.jpg"
@@ -119,6 +108,17 @@ relativeurls = false
         ["fa-github", "https://github.com/NCDoran"]
         ]
         
+    [[params.team.members]]
+      name = "Brian McGreal"
+      position = "PhD Student"
+      img = "Brian.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Brian's academic interests focus on management of common pool resources. He graduated from the University of Arizona in December 2021 with a MS in Applied Econometrics and Policy Analysis from the Department of Agricultural and Resource Economics. He was the primary author of the University of Arizona Water Resources Research Center’s 2021 _Arroyo, Groundwater Management – Past, Present and Future_ and 2022 _Arroyo, Water Resilience – Indigenous Perspectives_. Brian is currently pursuing a PhD in [**Quantitative Ecology and Resource Management**](https://quantitative.uw.edu/graduate/qerm/), where he's receiving intensive training in the application of statistical, mathematical, and decision sciences to terrestrial and aquatic ecology, natural resource management, biometrics, and mathematical biology. Brian's research involves best management practices for salmon populations."
+      social = [
+        ["fa-twitter", "https://twitter.com/UW_SAFS"],
+        ["fa-github", "https://github.com/themacfreezie"]
+        ]
+      
     [[params.team.members]]
       name = "Andrea Hennings"
       position = "MS Student"
