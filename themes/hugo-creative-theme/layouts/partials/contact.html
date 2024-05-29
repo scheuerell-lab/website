@@ -6,10 +6,19 @@
                 {{ with .Site.Params.contact.headline }}
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
-                {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
+                {{ if and .Site.Params.contact.headline .Site.Params.contact.school }}
                     <hr class="primary">
                 {{ end }}
-                {{ with .Site.Params.contact.description }}
+                {{ with .Site.Params.contact.school }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.contact.univ }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.contact.box }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.contact.city }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
             </div>
