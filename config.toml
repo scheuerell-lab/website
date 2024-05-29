@@ -60,7 +60,7 @@ relativeurls = false
 		headline_3    = "VALUES"
 		description_3 = "We are dedicated to providing a welcoming and supportive environment for all people, regardless of their background, identity, appearance, or manner of communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to improve and expand upon our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
 		headline_4    = "LAND ACKNOWLEDGMENT"
-		description_4 = "We acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as the tribes of the Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home."
+		description_4 = "We acknowledge the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations."
 		buttonText  = ""
 
 
@@ -102,21 +102,21 @@ relativeurls = false
       position = "PhD Student"
       img = "Brian.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Brian's academic interests focus on management of common pool resources. He graduated from the University of Arizona in December 2021 with a MS in Applied Econometrics and Policy Analysis from the Department of Agricultural and Resource Economics. He was the primary author of the University of Arizona Water Resources Research Center’s 2021 _Arroyo, Groundwater Management – Past, Present and Future_ and 2022 _Arroyo, Water Resilience – Indigenous Perspectives_. Brian is currently pursuing a PhD in [Quantitative Ecology and Resource Management](https://quantitative.uw.edu/graduate/qerm/), where he's receiving intensive training in the application of statistical, mathematical, and decision sciences to terrestrial and aquatic ecology, natural resource management, biometrics, and mathematical biology. Brian's research involves best management practices for salmon populations."
+      bio = "Brian's academic interests focus on management of common pool resources. He graduated from the University of Arizona in December 2021 with a MS in Applied Econometrics and Policy Analysis from the Department of Agricultural and Resource Economics. He was the primary author of the University of Arizona Water Resources Research Center’s 2021 _Arroyo, Groundwater Management – Past, Present and Future_ and 2022 _Arroyo, Water Resilience – Indigenous Perspectives_. Brian is currently pursuing a PhD in [**Quantitative Ecology and Resource Management**](https://quantitative.uw.edu/graduate/qerm/), where he's receiving intensive training in the application of statistical, mathematical, and decision sciences to terrestrial and aquatic ecology, natural resource management, biometrics, and mathematical biology. Brian's research involves best management practices for salmon populations."
       social = [
         ["fa-twitter", "https://twitter.com/UW_SAFS"],
-        ["fa-github", "https://github.com/scheuerell-lab"]
+        ["fa-github", "https://github.com/themacfreezie"]
         ]
       
     [[params.team.members]]
       name = "Nicole Doran"
-      position = "MS Student"
+      position = "PhD Student"
       img = "Nicole.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Nicole is interested in studying culturally important fishery species that have been impacted by environmental change. Her current thesis work involves studying the impacts of urbanization, climate change, and predation by introduced species on Kokanee salmon in Lake Sammamish. Nicole is passionate about increasing equity and inclusion in STEM through her involvement with the SAFS Equity and Inclusion Committee and organizations such as the American Indian Science and Engineering Society and Society for the Advancements of Chicanos/Hispanics and Native Americans in Science. Outside of work, Nicole enjoys reading, cooking, and playing video games. Feel free to reach out if you have questions about the lab, her research, or how to support DEI in STEM!"
+      bio = "Nicole is interested in studying culturally important fishery species that have been impacted by environmental change. Her Masters research explored frameworks of environmental justice, food justice, and community resilience that center Indigenous communities and their perspectives. Nicole's current dissertation work involves studying the impacts of urbanization, climate change, and predation by introduced species on Kokanee salmon in Lake Sammamish. Nicole is passionate about increasing equity and inclusion in STEM through her involvement with organizations such as the [**American Indian Science and Engineering Society**](https://www.aises.org/) and [**Society for the Advancements of Chicanos/Hispanics and Native Americans in Science**](https://www.sacnas.org/). Outside of work, Nicole enjoys reading, cooking, and playing video games. Feel free to reach out if you have questions about the lab, her research, or how to support DEI in STEM!"
       social = [
         ["fa-twitter", "https://twitter.com/SAFS"],
-        ["fa-github", "https://github.com/scheuerell-lab"]
+        ["fa-github", "https://github.com/NCDoran"]
         ]
         
     [[params.team.members]]
@@ -135,7 +135,7 @@ relativeurls = false
       position = "MS Student"
       img = "Tessa.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Tessa’s interests include predator-prey dynamics and studying anthropogenic influence on marine and freshwater species. Her current work focuses on the impact of artificial light levels on predation risk to juvenile salmon in Lake Washington, WA. Before joining SAFS, Tessa worked for the National Park Service in St Croix, USVI where she developed skills in hydro-acoustics, scuba-diving, and long-term saturation tagging projects. While working as a marine debris technician for the NOAA Pacific Islands Fisheries Science Center, she found a passion for cleaning up the ocean and minimizing anthropogenic effects on marine species. After moving back to Seattle, Tessa began working for the USGS Western Fisheries Research Center, where she remains a biological science technician. In her free time, Tessa enjoys kayaking on the Puget Sound, tending to her vegetable garden, and snuggling with her rescue pup, Jacque."
+      bio = "Tessa’s interests include predator-prey dynamics and studying anthropogenic influence on marine and freshwater species. Her current work focuses on the impact of artificial light levels on predation risk to juvenile salmon in Lake Washington, WA. Before joining SAFS, Tessa worked for the National Park Service in St Croix, USVI where she developed skills in hydro-acoustics, scuba-diving, and long-term saturation tagging projects. While working as a marine debris technician for the NOAA Pacific Islands Fisheries Science Center, she found a passion for cleaning up the ocean and minimizing anthropogenic effects on marine species. After moving back to Seattle, Tessa began working for the [**USGS Western Fisheries Research Center**](https://www.usgs.gov/centers/western-fisheries-research-center), where she remains a biological science technician. In her free time, Tessa enjoys kayaking on the Puget Sound, tending to her vegetable garden, and snuggling with her rescue pup, Jacque."
       social = [
         ["fa-twitter", "https://twitter.com/SAFS"],
         ["fa-github", "https://github.com/scheuerell-lab"]
@@ -146,7 +146,7 @@ relativeurls = false
       position = "MS Student"
       img = "Amirah.jpeg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Amirah recently graduated from Western Washington University with a BS in Marine and Coastal Science with a minor in Spanish. While at WWU, she took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at foundry10, the first undergraduate to teach a lab section of organismal biology, a peer mentor for the Marine and Coastal Science program and worked on the education team at Blue Zoo aquarium.  In addition to her studies in SAFS, Amirah is a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program. When she is not in the lab or doing schoolwork, Amirah enjoys going to the gym, exploring the city with friends, and watching her favorite TV shows."
+      bio = "Amirah graduated from Western Washington University with a BS in Marine and Coastal Science with a minor in Spanish. While at WWU, she took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at foundry10, the first undergraduate to teach a lab section of organismal biology, a peer mentor for the Marine and Coastal Science program and worked on the education team at Blue Zoo aquarium.  In addition to her studies in SAFS, Amirah is a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program. When she is not in the lab or doing schoolwork, Amirah enjoys going to the gym, exploring the city with friends, and watching her favorite TV shows."
       social = [
         ["fa brands fa-linkedin", "https://www.linkedin.com/in/amirah-casey-b77404a3/"],
         ["fa-github", "https://github.com/scheuerell-lab"]
@@ -176,7 +176,7 @@ relativeurls = false
       people = [
         [" "],
         ["Karl Veggerby", "(Masters Student, 2021-2023)", "fa-external-link", "https://github.com/veggerk"],
-        ["Andrea Richter-Sanchez", "(Research Scientist, 2023)", "fa-external-link", "https://www.linkedin.com/in/andrea-richter-sanchez-0a005a165/"],
+        ["Andrea Martinez", "(Research Scientist, 2023)", "fa-external-link", "https://www.linkedin.com/in/andrea-martinez-mma-0a005a165/"],
         ["Olivia Anderson", "(IBIS Undergraduate, 2023)", "fa-external-link", "https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program/"],
         ["Kelly Mistry", "(Masters Student,  2020-2022)", "fa-external-link", "https://www.kellyrmistry.com/"],
         ["Catherine Wangen", "(Research Scientist, 2022)"],
@@ -229,7 +229,10 @@ relativeurls = false
   # ---------------
   [params.contact]
 		headline = "Contact info"
-		description = "School of Aquatic and Fishery Sciences, University of Washington, PO Box 355020, Seattle, WA 98195-5020"
+		school = "School of Aquatic and Fishery Sciences"
+		univ = "University of Washington"
+		box = "PO Box 355020"
+		city = "Seattle, WA 98195"
 		phone = ""
 		email = "scheuerl@uw.edu"
 
@@ -247,7 +250,7 @@ relativeurls = false
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2023 Mark Scheuerell"
+    copyright = "&copy; 2024 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"
