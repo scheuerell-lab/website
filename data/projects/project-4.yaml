@@ -1,9 +1,9 @@
 modalID: 4
-title: Catch Allocation in the Gulf of Alaska
-subtitle: Catch allocation in the Gulf of Alaska.
-date: 2020-10-01
-img: trawl_sorting.jpg
+title: Puget Sound Rockfish
+subtitle: Updated status review for bocaccio, canary, and yelloweye.
+date: 2022-12-31
+img: bocaccio.jpg
 client: NOAA Fisheries
-clientLink: "https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center"
-category: Spatio-temporal models
-description: "The North Pacific Fisheries Management Council (NPFMC) sets Total Allowable Catch (TAC) for all stocks and complexes listed in several Fisheries Management Plans. Currently, harvest regulations occurring for strata within each stock are informed by applying a smoother of available (and often highly uncertain) area-specific survey indices. However, this approach can result in large interannual variability in strata-specific harvest regulations, especially for stocks that are more challenging to survey or surveyed less frequently. In this project, we will investigate multiple alternative approaches to determine apportionment of subregional groundfish harvest in the Gulf of Alaska."
+clientLink: "https://www.fisheries.noaa.gov/region/west-coast"
+category: Species Status Assessment
+description: "Understanding the population status of these listed rockfish is necessary to 1) inform fisheries and habitat conservation management, 2) inform population targets identified in the Rockfish Recovery Plan (finished in 2017), and 3) potentially propose changing the listing status of these fishes under the ESA. To inform the recovery of this DPS, we reconstructed historical catches of this species within Puget Sound, collated historical and contemporary demographic data, and fit a data-limited stock assessment model to generate estimates of population status. You can find our data, code, and paper [**here**](https://github.com/markusmin/ESA_RF_2021/tree/main), and a press release for this project [**here**](https://fish.uw.edu/2023/10/looking-to-the-past-to-inform-the-future-historical-ecology-and-fisheries-stock-assessment-methods-shed-light-on-yelloweye-rockfish/)."
