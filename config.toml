@@ -60,7 +60,7 @@ relativeurls = false
 		headline_3    = "VALUES"
 		description_3 = "We are dedicated to providing a welcoming and supportive environment for all people, regardless of their background, identity, appearance, or manner of communication. Our team works in an open science environment, relying on trust and respect to build effective partnerships. We continually strive to improve and expand upon our complimentary skillsets through education and innovation, and we believe strongly in the sharing of knowledge through conversation and writing."
 		headline_4    = "LAND ACKNOWLEDGMENT"
-		description_4 = "We acknowledge the ancestral homelands of those who walked here before us and those who still walk here, keeping in mind the integrity of this territory where area Native peoples identify as the Duwamish, Suquamish, Snoqualmie, and Puyallup, as well as the tribes of the Muckleshoot, Tulalip, other Coast Salish peoples, and their descendants. We are grateful to respectfully live and work as guests on these lands with the Coast Salish and Native people who call this home."
+		description_4 = "We acknowledge the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations."
 		buttonText  = ""
 
 
@@ -87,17 +87,6 @@ relativeurls = false
       ]
 
     [[params.team.members]]
-      name = "Dara Farrell"
-      position = "Postdoctoral Scholar"
-      img = "Dara.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Dara obtained her Ph.D. in  Mechanical Engineering from the University of Washington in Seattle in the summer of 2019 where the focus of her research was underwater acoustics – specifically anthropogenic and background noise characterization. Dara began her university career with a bachelor’s degree in Chemical Engineering from the University of the West Indies in Trinidad & Tobago, and went on to complete her master's degree in Environmental Engineering at the University of Illinois at Urbana Champaign on a Fulbright-LASPAU scholarship. She strives toward a multi-disciplinary approach to measuring, understanding, and solving environmental problems, and uses machine learning, GIS and passive acoustics in her work. She finds great satisfaction in being involved in multi-disciplinary projects that allow her to hone her engineering- and acoustics-related skills."
-      social = [
-        ["fa brands fa-linkedin", "https://www.linkedin.com/in/darafarrell/"],
-        ["fa-github", "https://github.com/dmfarrell"]
-        ]
-      
-    [[params.team.members]]
       name = "Markus Min"
       position = "PhD Student"
       img = "Markus.jpg"
@@ -109,6 +98,17 @@ relativeurls = false
         ]
       
     [[params.team.members]]
+      name = "Nicole Doran"
+      position = "PhD Student"
+      img = "Nicole.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Nicole is interested in studying culturally important fishery species that have been impacted by environmental change. Her Masters research explored frameworks of environmental justice, food justice, and community resilience that center Indigenous communities and their perspectives. Nicole's current dissertation work involves studying the impacts of urbanization, climate change, and predation by introduced species on Kokanee salmon in Lake Sammamish. Nicole is passionate about increasing equity and inclusion in STEM through her involvement with organizations such as the [**American Indian Science and Engineering Society**](https://www.aises.org/) and [**Society for the Advancements of Chicanos/Hispanics and Native Americans in Science**](https://www.sacnas.org/). Outside of work, Nicole enjoys reading, cooking, and playing video games. Feel free to reach out if you have questions about the lab, her research, or how to support DEI in STEM!"
+      social = [
+        ["fa-twitter", "https://twitter.com/SAFS"],
+        ["fa-github", "https://github.com/NCDoran"]
+        ]
+        
+    [[params.team.members]]
       name = "Brian McGreal"
       position = "PhD Student"
       img = "Brian.jpg"
@@ -116,20 +116,20 @@ relativeurls = false
       bio = "Brian's academic interests focus on management of common pool resources. He graduated from the University of Arizona in December 2021 with a MS in Applied Econometrics and Policy Analysis from the Department of Agricultural and Resource Economics. He was the primary author of the University of Arizona Water Resources Research Center’s 2021 _Arroyo, Groundwater Management – Past, Present and Future_ and 2022 _Arroyo, Water Resilience – Indigenous Perspectives_. Brian is currently pursuing a PhD in [**Quantitative Ecology and Resource Management**](https://quantitative.uw.edu/graduate/qerm/), where he's receiving intensive training in the application of statistical, mathematical, and decision sciences to terrestrial and aquatic ecology, natural resource management, biometrics, and mathematical biology. Brian's research involves best management practices for salmon populations."
       social = [
         ["fa-twitter", "https://twitter.com/UW_SAFS"],
-        ["fa-github", "https://github.com/scheuerell-lab"]
+        ["fa-github", "https://github.com/themacfreezie"]
         ]
       
     [[params.team.members]]
-      name = "Nicole Doran"
-      position = "MS Student"
-      img = "Nicole.jpg"
+      name = "Angela Dillon"
+      position = "PhD Student"
+      img = "mt-rainier-puyallup-river.jpeg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Nicole is interested in studying culturally important fishery species that have been impacted by environmental change. Her current thesis work involves studying the impacts of urbanization, climate change, and predation by introduced species on Kokanee salmon in Lake Sammamish. Nicole is passionate about increasing equity and inclusion in STEM through her involvement with the SAFS Equity and Inclusion Committee and organizations such as the American Indian Science and Engineering Society and Society for the Advancements of Chicanos/Hispanics and Native Americans in Science. Outside of work, Nicole enjoys reading, cooking, and playing video games. Feel free to reach out if you have questions about the lab, her research, or how to support DEI in STEM!"
+      bio = "Angela was born and raised in the Puyallup Valley and is an enrolled member of the Puyallup Tribe. She has a BS Aquatic and Fisheries Sciences from UW and an MS from the Evergreen State College where she studied juvenile salmon diets, restoration, and invertebrate prey resources in the Puyallup River watershed. Angela spent a few years doing water quality work in WRIA 7 before going to work for the Puyallup Tribe’s Fisheries Department. As a field biologist, she monitors adult and juvenile salmon in WRIA 10 and as the SEPA Reviewer. Angela is currently the Water Quality Manager at the Puyallup Tribe’s Fisheries Department. In my free time, she volunteers for the Puyallup Tribe’s Sustainability Working Group and the City of Puyallup. Angela love puppies, detective novels, and the fall is her favorite time of the year. [Co-advised with Daniel Schindler]"
       social = [
-        ["fa-twitter", "https://twitter.com/NicoleDoran10"],
+        ["fa-twitter", "https://twitter.com/UW_SAFS"],
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
-        
+      
     [[params.team.members]]
       name = "Andrea Hennings"
       position = "MS Student"
@@ -138,7 +138,7 @@ relativeurls = false
       bio = "Andrea is a biologist with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) Marine Fish Science Unit where she is the Unit’s remotely operated vehicle (ROV) program data manager, video annotation supervisor, and field coordinator, as well as an ROV pilot. In this position, her work supports long-term monitoring and population assessments of Salish Sea groundfish, principally rockfish and lingcod, in untrawlable habitats. Prior to WDFW, Andrea was support staff to the Snohomish County Marine Resources Committee (MRC) where she contributed to a range of projects, including the development of a derelict crabbing gear education and outreach program and the regional citizen science expansion of the NOAA Mussel Watch water quality program. When she’s not looking at fish on a computer, Andrea enjoys growing her own food, skiing, and sailing with her husband and rescue dog."
       social = [
         ["fa-twitter", "https://twitter.com/WDFW"],
-        ["fa-github", "https://github.com/scheuerell-lab"]
+        ["fa-github", "https://github.com/arhennings"]
         ]
         
     [[params.team.members]]
@@ -157,22 +157,31 @@ relativeurls = false
       position = "MS Student"
       img = "Amirah.jpeg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Amirah recently graduated from Western Washington University with a BS in Marine and Coastal Science with a minor in Spanish. While at WWU, she took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, Amirah was the first undergraduate to teach a lab section of organismal biology and she was a peer mentor for the Marine and Coastal Science program. During this time Amirah was also a marine science education intern at foundry10 and she worked on the education team at Blue Zoo Aquarium. In addition to her studies in SAFS, Amirah is a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program. When she is not in the lab or doing schoolwork, Amirah enjoys going to the gym, exploring the city with friends, and watching her favorite TV shows."
+      bio = "Amirah is studying the synergistic effects of contaminants and climate change on Pacific salmon. She is also a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program and an active member of [SEAS](https://fish.uw.edu/students/student-organizations/students-explore-aquatic-sciences-seas/). Before coming to UW, Amirah graduated from Western Washington University with a BS in Marine and Coastal Science, and a minor in Spanish. While at WWU, she took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at foundry10, the first undergraduate to teach a lab section of organismal biology, a peer mentor for the Marine and Coastal Science program and worked on the education team at Blue Zoo aquarium.  When she is not in the lab or doing schoolwork, Amirah enjoys going to the gym, exploring the city with friends, and watching her favorite TV shows."
       social = [
-        ["fa-twitter", "https://twitter.com/SAFS"],
+        ["fa brands fa-linkedin", "https://www.linkedin.com/in/amirah-casey-b77404a3/"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
+        ]
+        
+    [[params.team.members]]
+      name = "Callie Murakami"
+      position = "Undergraduate"
+      img = "Callie.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Callie is a sophomore majoring in Aquatic & Fishery Sciences and planning to minor in Quantitative Science. She is exploring the fisheries field and has an interest in freshwater ecology and conservation. With a grant from [**Conservation, Research and Education Opportunities International**](https://creoi.org/), Callie is working with Markus and collaborators at WDFW to understand spatial and temporal patterns of marine debris in Puget Sound. Callie volunteered at the Issaquah Salmon Hatchery in the fall of 2023 to help with coho and Chinook spawning, and has been interested in getting more hands-on experience ever since. When she is not studying, Callie enjoys playing roller derby, sewing, drawing, playing video games, and spending time with her roommates."
+      social = [
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
     [[params.team.former]]
       people = [
         [" "],
-        ["Kerrianne McCarthy", "(Undergraduate, 2019-2020)"],
-        ["Kelly Mistry", "(Masters Student,  2020-2022)", "fa-external-link", "https://www.kellyrmistry.com/"],
-        ["Catherine Wangen", "(Research Scientist, 2022)"],
+        ["Sarah Hensley", "(Undergraduate Scholar, 2023-2024)", "fa-external-link", "https://github.com/veggerk"],
         ["Karl Veggerby", "(Masters Student, 2021-2023)", "fa-external-link", "https://github.com/veggerk"],
-        ["Andrea Richter-Sanchez", "(Research Scientist, 2023)", "fa-external-link", "https://www.linkedin.com/in/andrea-richter-sanchez-0a005a165/"],
-        ["Olivia Anderson", "(IBIS Undergraduate, 2023)", "fa-external-link", "https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program/"],
-        ["Sarah Hensley", "(IBIS Undergraduate, 2023)", "fa-external-link", "https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program/"],
+        ["Andrea Martinez", "(Research Scientist, 2023)", "fa-external-link", "https://www.linkedin.com/in/andrea-martinez-mma-0a005a165/"],
+        ["Olivia Anderson", "(Undergraduate Scholar, 2023)", "fa-external-link", "https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program/"],
+        ["Kelly Mistry", "(Masters Student,  2020-2022)", "fa-external-link", "https://www.kellyrmistry.com/"],
+        ["Catherine Wangen", "(Research Scientist, 2022)", "fa-external-link", "https://www.linkedin.com/in/catherine-wangen/"]
         ]
 
   # ---------------
@@ -221,7 +230,10 @@ relativeurls = false
   # ---------------
   [params.contact]
 		headline = "Contact info"
-		description = "School of Aquatic and Fishery Sciences, University of Washington, PO Box 355020, Seattle, WA 98195-5020"
+		school = "School of Aquatic and Fishery Sciences"
+		univ = "University of Washington"
+		box = "PO Box 355020"
+		city = "Seattle, WA 98195"
 		phone = ""
 		email = "scheuerl@uw.edu"
 
@@ -239,7 +251,7 @@ relativeurls = false
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2023 Mark Scheuerell"
+    copyright = "&copy; 2024 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-twitter"

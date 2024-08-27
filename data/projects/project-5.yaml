@@ -1,9 +1,9 @@
 modalID: 5
-title: Puget Sound Rockfish
-subtitle: Updated status review for bocaccio, canary, and yelloweye.
-date: 2021-01-04
-img: bocaccio.jpg
-client: NOAA Fisheries
-clientLink: "https://www.fisheries.noaa.gov/region/west-coast"
-category: Species Status Assessment
-description: "Understanding the population status of these listed rockfish is necessary to 1) inform fisheries and habitat conservation management, 2) inform population targets identified in the Rockfish Recovery Plan (finished in 2017), and 3) potentially propose changing the listing status of these fishes under the ESA. Improving our understanding of population status will entail collating and analyzing data from a variety of data sources. This project will assist NOAA Fisheries to conduct population assessments using contemporary and historical information for ESA-listed rockfish to support the 5-year review."
+title: Skagit River Steelhead
+subtitle: Development and application of an integrated population model.
+date: 2019-09-01
+img: steelhead.jpg
+client: Skagit River System Cooperative
+clientLink: "http://skagitcoop.org/"
+category: Integrated Popoulation Models
+description: "In 2007, the Puget Sound steelhead (_Oncorhynchus mykiss_) Distinct Population Segment (DPS) was listed as threatened under the U.S. Endangered Species Act (ESA). In support of efforts to evaluate the effects of various environmental drivers on the productivity, we developed an integrated population model for steelhead from the Skagit River basin. <br><br>You can find our data, code, and paper [here](https://github.com/mdscheuerell/steelhead_IPM)."
