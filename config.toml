@@ -124,7 +124,7 @@ relativeurls = false
       position = "PhD Student"
       img = "mt-rainier-puyallup-river.jpeg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Angela was born and raised in the Puyallup Valley and is an enrolled member of the Puyallup Tribe. She has a BS Aquatic and Fisheries Sciences from UW and an MS from the Evergreen State College where she studied juvenile salmon diets, restoration, and invertebrate prey resources in the Puyallup River watershed. Angela spent a few years doing water quality work in WRIA 7 before going to work for the Puyallup Tribe’s Fisheries Department. As a field biologist, she monitors adult and juvenile salmon in WRIA 10 and as the SEPA Reviewer. Angela is currently the Water Quality Manager at the Puyallup Tribe’s Fisheries Department. In my free time, she volunteers for the Puyallup Tribe’s Sustainability Working Group and the City of Puyallup. Angela love puppies, detective novels, and the fall is her favorite time of the year. [Co-advised with Daniel Schindler]"
+      bio = "Angela was born and raised in the Puyallup Valley and is an enrolled member of the Puyallup Tribe. She has a BS Aquatic and Fisheries Sciences from UW and an MS from the Evergreen State College where she studied juvenile salmon diets, restoration, and invertebrate prey resources in the Puyallup River watershed. Angela spent a few years doing water quality work in WRIA 7 before going to work for the Puyallup Tribe’s Fisheries Department. As a field biologist, she monitors adult and juvenile salmon in WRIA 10 and as the SEPA Reviewer. Angela is currently the Water Quality Manager at the Puyallup Tribe’s Fisheries Department. In my free time, she volunteers for the Puyallup Tribe’s Sustainability Working Group and the City of Puyallup. Angela love puppies, detective novels, and the fall is her favorite time of the year. [Angela is co-advised by Daniel Schindler.]"
       social = [
         ["fa-twitter", "https://twitter.com/UW_SAFS"],
         ["fa-github", "https://github.com/scheuerell-lab"]
@@ -157,7 +157,7 @@ relativeurls = false
       position = "MS Student"
       img = "Amirah.jpeg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Amirah is studying the synergistic effects of contaminants and climate change on Pacific salmon. She is also a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program and an active member of [SEAS](https://fish.uw.edu/students/student-organizations/students-explore-aquatic-sciences-seas/). Before coming to UW, Amirah graduated from Western Washington University with a BS in Marine and Coastal Science, and a minor in Spanish. While at WWU, she took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at foundry10, the first undergraduate to teach a lab section of organismal biology, a peer mentor for the Marine and Coastal Science program and worked on the education team at Blue Zoo aquarium.  When she is not in the lab or doing schoolwork, Amirah enjoys going to the gym, exploring the city with friends, and watching her favorite TV shows."
+      bio = "Amirah is studying the synergistic effects of contaminants and climate change on Pacific salmon. She is also a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program and an active member of [**SEAS**](https://fish.uw.edu/students/student-organizations/students-explore-aquatic-sciences-seas/). Before coming to UW, Amirah graduated from Western Washington University with a BS in Marine and Coastal Science, and a minor in Spanish. While at WWU, she took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at foundry10, the first undergraduate to teach a lab section of organismal biology, a peer mentor for the Marine and Coastal Science program and worked on the education team at Blue Zoo aquarium.  When she is not in the lab or doing schoolwork, Amirah enjoys going to the gym, exploring the city with friends, and watching her favorite TV shows."
       social = [
         ["fa brands fa-linkedin", "https://www.linkedin.com/in/amirah-casey-b77404a3/"],
         ["fa-github", "https://github.com/scheuerell-lab"]
@@ -168,7 +168,7 @@ relativeurls = false
       position = "Undergraduate"
       img = "Callie.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Callie is a sophomore majoring in Aquatic & Fishery Sciences and planning to minor in Quantitative Science. She is exploring the fisheries field and has an interest in freshwater ecology and conservation. With a grant from [**Conservation, Research and Education Opportunities International**](https://creoi.org/), Callie is working with Markus and collaborators at WDFW to understand spatial and temporal patterns of marine debris in Puget Sound. Callie volunteered at the Issaquah Salmon Hatchery in the fall of 2023 to help with coho and Chinook spawning, and has been interested in getting more hands-on experience ever since. When she is not studying, Callie enjoys playing roller derby, sewing, drawing, playing video games, and spending time with her roommates."
+      bio = "Callie is a sophomore majoring in Aquatic & Fishery Sciences and planning to minor in Quantitative Science. She is exploring the fisheries field and has an interest in freshwater ecology and conservation. With a grant from [**Conservation, Research and Education Opportunities International**](https://creoi.org/), Callie is working with PhD student Markus Min and collaborators at WDFW to better understand spatial and temporal patterns of marine debris in Puget Sound. Callie volunteered at the Issaquah Salmon Hatchery in the fall of 2023 to help with coho and Chinook spawning, and has been interested in getting more hands-on experience ever since. Callie spent four weeks in SW Alaska during the summer of 2024 studying sockeye salmon and the freshwater ecosystems that support them. Callie enjoys playing roller derby, sewing, drawing, playing video games, and spending time with her roommates."
       social = [
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
@@ -176,7 +176,7 @@ relativeurls = false
     [[params.team.former]]
       people = [
         [" "],
-        ["Sarah Hensley", "(Undergraduate Scholar, 2023-2024)", "fa-external-link", "https://github.com/veggerk"],
+        ["Sarah Hensley", "(Undergraduate Scholar, 2023-2024)", "fa-external-link", "https://www.linkedin.com/in/sarahmhensley/"],
         ["Karl Veggerby", "(Masters Student, 2021-2023)", "fa-external-link", "https://github.com/veggerk"],
         ["Andrea Martinez", "(Research Scientist, 2023)", "fa-external-link", "https://www.linkedin.com/in/andrea-martinez-mma-0a005a165/"],
         ["Olivia Anderson", "(Undergraduate Scholar, 2023)", "fa-external-link", "https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program/"],
