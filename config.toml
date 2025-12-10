@@ -82,7 +82,7 @@ relativeurls = false
       # For bio, markdown and multiline strings are possible.
       bio = "Mark's research interests lie at the intersection of ecology and management. He is broadly interested in the roles of natural and anthropogenic drivers on freshwater and coastal ecosystems, and the services we derive from them. You can find out more about Mark's research and teaching interests [**here**](https://faculty.washington.edu/scheuerl/). Mark also appreciates a healthy work-life balance. In his free time, Mark enjoys cycling, skiing, and enjoying Seattle and the surrounding area with his family."
       social = [
-        ["fa-twitter", "https://twitter.com/mark_scheuerell"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mark-scheuerell-a1b9ba237/"],
         ["fa-github", "https://github.com/mdscheuerell"]
       ]
 
@@ -104,8 +104,19 @@ relativeurls = false
       # For bio, markdown and multiline strings are possible.
       bio = "Nicole is interested in studying culturally important fishery species that have been impacted by environmental change. Her Masters research explored frameworks of environmental justice, food justice, and community resilience that center Indigenous communities and their perspectives. Nicole's current dissertation work involves studying the impacts of urbanization, climate change, and predation by introduced species on Kokanee salmon in Lake Sammamish. Nicole is passionate about increasing equity and inclusion in STEM through her involvement with organizations such as the [**American Indian Science and Engineering Society**](https://www.aises.org/) and [**Society for the Advancements of Chicanos/Hispanics and Native Americans in Science**](https://www.sacnas.org/). Outside of work, Nicole enjoys reading, cooking, and playing video games. Feel free to reach out if you have questions about the lab, her research, or how to support DEI in STEM!"
       social = [
-        ["fa-twitter", "https://twitter.com/SAFS"],
+        ["fa-instagram", "https://www.instagram.com/nicole_doran23/?hl=en"],
         ["fa-github", "https://github.com/NCDoran"]
+        ]
+        
+    [[params.team.members]]
+      name = "Tessa Code"
+      position = "PhD Student"
+      img = "Tessa.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Tessa’s interests include predator-prey dynamics and studying anthropogenic influence on marine and freshwater species. Her current work focuses on the impact of artificial light levels on predation risk to juvenile salmon in Lake Washington, WA. Before joining SAFS, Tessa worked for the National Park Service in St Croix, USVI where she developed skills in hydro-acoustics, scuba-diving, and long-term saturation tagging projects. While working as a marine debris technician for the NOAA Pacific Islands Fisheries Science Center, she found a passion for cleaning up the ocean and minimizing anthropogenic effects on marine species. After moving back to Seattle, Tessa began working for the [**USGS Western Fisheries Research Center**](https://www.usgs.gov/centers/western-fisheries-research-center), where she remains a biological science technician. In her free time, Tessa enjoys kayaking on the Puget Sound, tending to her vegetable garden, and snuggling with her rescue pup, Jacque."
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/tessacode/"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
     [[params.team.members]]
@@ -115,7 +126,6 @@ relativeurls = false
       # For bio, markdown and multiline strings are possible.
       bio = "Brian's academic interests focus on management of common pool resources. He graduated from the University of Arizona in December 2021 with a MS in Applied Econometrics and Policy Analysis from the Department of Agricultural and Resource Economics. He was the primary author of the University of Arizona Water Resources Research Center’s 2021 _Arroyo, Groundwater Management – Past, Present and Future_ and 2022 _Arroyo, Water Resilience – Indigenous Perspectives_. Brian is currently pursuing a PhD in [**Quantitative Ecology and Resource Management**](https://quantitative.uw.edu/graduate/qerm/), where he's receiving intensive training in the application of statistical, mathematical, and decision sciences to terrestrial and aquatic ecology, natural resource management, biometrics, and mathematical biology. Brian's current research focuses on large-scale assessments of Pink salmon population dynamics in SE Alaska."
       social = [
-        ["fa-twitter", "https://twitter.com/UW_SAFS"],
         ["fa-github", "https://github.com/themacfreezie"]
         ]
       
@@ -126,7 +136,6 @@ relativeurls = false
       # For bio, markdown and multiline strings are possible.
       bio = "Angela completed her BS in Aquatic and Fisheries Sciences from UW with a capstone project evaluating the food habits of Pacific cod, Pacific halibut, and flathead sole. She continued this focus with her MS research on juvenile salmon diets and invertebrate prey resources at the Evergreen State College. Angela is currently the Water Quality Manager with the [**Puyallup Tribe’s Fisheries Department**]( https://www.puyalluptribe-nsn.gov/member-services/tribal-natural-resources/fisheries/). In this position, Angela has been collecting data on temperature impaired streams in the Puyallup watershed and is returning to SAFS to evaluate salmonid responses to cold water refugia during summer low flows. Angela is a Puyallup Tribal member with a passion for protecting natural resources so future generations can participate in the traditions that are intrinsically linked to water, salmon, plants, and wildlife. In her free time, Angela loves reading mystery novels, beading, and board games. [Angela is co-advised by Daniel Schindler.]"
       social = [
-        ["fa-twitter", "https://twitter.com/UW_SAFS"],
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
       
@@ -137,29 +146,18 @@ relativeurls = false
       # For bio, markdown and multiline strings are possible.
       bio = "Andrea is a biologist with the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) Marine Fish Science Unit where she is the Unit’s remotely operated vehicle (ROV) program data manager, video annotation supervisor, and field coordinator, as well as an ROV pilot. In this position, her work supports long-term monitoring and population assessments of Salish Sea groundfish, principally rockfish and lingcod, in untrawlable habitats. Prior to WDFW, Andrea was support staff to the Snohomish County Marine Resources Committee (MRC) where she contributed to a range of projects, including the development of a derelict crabbing gear education and outreach program and the regional citizen science expansion of the NOAA Mussel Watch water quality program. When she’s not looking at fish on a computer, Andrea enjoys growing her own food, skiing, and sailing with her husband and rescue dog."
       social = [
-        ["fa-twitter", "https://twitter.com/WDFW"],
+        ["fa-linkedin", "https://www.linkedin.com/in/andrea-hennings-4785b61b/"],
         ["fa-github", "https://github.com/arhennings"]
-        ]
-        
-    [[params.team.members]]
-      name = "Tessa Code"
-      position = "MS Student"
-      img = "Tessa.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Tessa’s interests include predator-prey dynamics and studying anthropogenic influence on marine and freshwater species. Her current work focuses on the impact of artificial light levels on predation risk to juvenile salmon in Lake Washington, WA. Before joining SAFS, Tessa worked for the National Park Service in St Croix, USVI where she developed skills in hydro-acoustics, scuba-diving, and long-term saturation tagging projects. While working as a marine debris technician for the NOAA Pacific Islands Fisheries Science Center, she found a passion for cleaning up the ocean and minimizing anthropogenic effects on marine species. After moving back to Seattle, Tessa began working for the [**USGS Western Fisheries Research Center**](https://www.usgs.gov/centers/western-fisheries-research-center), where she remains a biological science technician. In her free time, Tessa enjoys kayaking on the Puget Sound, tending to her vegetable garden, and snuggling with her rescue pup, Jacque."
-      social = [
-        ["fa-twitter", "https://twitter.com/SAFS"],
-        ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
     [[params.team.members]]
       name = "Amirah Casey"
       position = "MS Student"
-      img = "Amirah.jpeg"
+      img = "Amirah.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Amirah graduated from Western Washington University with a BS in Marine and Coastal Science with a minor in Spanish. While at WWU, Amirah took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at [**foundry10**](https://www.foundry10.org/), the first undergraduate to teach a lab section of organismal biology, and a peer mentor for the Marine and Coastal Science program. Amirah is collaborating with the ecotoxicology group at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/) on a new land use mapping project, focused on interactions between urban growth, imperviousness, toxic runoff, and expanding thermal stress in freshwater salmon habitats. In addition to her studies in SAFS, Amirah is a member of the [**Future Rivers**](https://futurerivers.uw.edu/) program and participates in outreach and education with [**SEAS**](https://fish.uw.edu/students/student-organizations/students-explore-aquatic-sciences-seas/). Besides school and work, Amirah enjoys going to the gym, exploring the city with friends, and reading a wide variety of genres."
+      bio = " Amirah graduated as an [**Outstanding Graduate**](https://window.wwu.edu/she-was-beautiful-loyal-and-tough) from Western Washington University with a BS in Marine and Coastal Science and a minor in Spanish. While at WWU, Amirah took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at [**foundry10**](https://www.foundry10.org/), the first undergraduate to teach a lab section of organismal biology, and a peer mentor for the Marine and Coastal Science program. Amirah is collaborating with the ecotoxicology group at NOAA Fisheries focusing on interactions between urban growth, imperviousness, toxic runoff, and expanding thermal stress in [**freshwater salmon habitats**](https://zenodo.org/records/17188229). In addition to her studies in SAFS, she is also a [**PNW Climate Ambassador**](https://fish.uw.edu/2025/07/climate-change-and-communication-go-hand-in-hand-for-pnw-climate-ambassadors/), [**undergraduate mentor**](https://fish.uw.edu/2025/06/high-schoolers-design-lesson-on-pacific-salmon-and-chemicals/), and [**SEAS board member**](https://fish.uw.edu/students/student-organizations/students-explore-aquatic-sciences-seas/). Amirah also enjoyed being a member of the [**Future Rivers program**](https://futurerivers.uw.edu/) and TAing Quantitative Ecology. Her future work will explore climate solutions and their implications for ecosystems and societies. Besides school and work, Amirah enjoys going to the gym, exploring the city with friends, and reading a wide variety of genres."
       social = [
-        ["fa brands fa-linkedin", "https://www.linkedin.com/in/amirah-casey-b77404a3/"],
+        ["fa fa-linkedin", "https://www.linkedin.com/in/amirah-casey-b77404a3/"],
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
@@ -168,7 +166,18 @@ relativeurls = false
       position = "Undergraduate"
       img = "Callie.jpg"
       # For bio, markdown and multiline strings are possible.
-      bio = "Callie is a sophomore majoring in Aquatic & Fishery Sciences and planning to minor in Quantitative Science. She is exploring the fisheries field and has an interest in freshwater ecology and conservation. With a grant from [**Conservation, Research and Education Opportunities International**](https://creoi.org/), Callie is working alongside PhD student Markus Min and collaborators at the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) to better understand spatial and temporal patterns of marine debris in Puget Sound. Callie volunteered at the Issaquah Salmon Hatchery in the fall of 2023 to help with coho and Chinook spawning, and has been interested in getting more hands-on experience ever since. Callie spent four weeks in SW Alaska during the summer of 2024 with the [**UW Alaska Salmon Program**](https://alaskasalmonprogram.org/) studying sockeye salmon and the freshwater ecosystems that support them. Callie enjoys playing roller derby, sewing, drawing, playing video games, and spending time with her roommates."
+      bio = "Callie is a senior majoring in Aquatic & Fishery Sciences and minoring in Quantitative Science and Freshwater Science & Management. With a grant from [**Conservation, Research and Education Opportunities International**](https://creoi.org/), Callie is working alongside PhD student Markus Min and collaborators at the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) to better understand spatial and temporal patterns of marine debris in Puget Sound. Callie spent four weeks in SW Alaska during the summer of 2024 with the [**UW Alaska Salmon Program**](https://alaskasalmonprogram.org/) studying sockeye salmon and the freshwater ecosystems that support them. This past summer, Callie was a [**Varanasi Quantitative Undergraduate Intern**](https://fish.uw.edu/students/student-and-career-opportunities/internships/varanasi-internship/) with [**NOAA Fisheries**](https://www.fisheries.noaa.gov/) where she helped to develop an R package and Shiny app to summarize groundfish survey data across the North Pacific Ocean. Outside of her interests in data science and freshwater ecology, Callie enjoys drawing, sewing, and roller skating."
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/callie-murakami-5695a2396/"],
+        ["fa-github", "https://github.com/scheuerell-lab"]
+        ]
+        
+    [[params.team.members]]
+      name = "Jaycee Williford"
+      position = "Undergraduate"
+      img = "Jaycee.jpg"
+      # For bio, markdown and multiline strings are possible.
+      bio = "Jaycee is a sophomore majoring in [**Marine Biology**](https://marinebiology.uw.edu/) with a minor in [**American Indian Studies**](https://ais.washington.edu/) who joins our lab through the [**IBIS Program**](https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program/). Being born and raised in the Pacific Northwest, he has grown up hiking, camping, and spending time outdoors throughout Washington State. Through his community, he has developed a deeper understanding of the nuanced issues plaguing Indigenous communities. Jaycee is hoping to use his career to work collaboratively with tribal nations, either in the Pacific Northwest or with his tribe, the Chickasaw Nation in Oklahoma.  Organizations such as the [**Kurt Grinnell Aquaculture Scholarship Fund**](https://kurtgrinnellscholarship.org/) have validated Jaycee's path, continuing to drive his passion for his future. He is eager to continue to collaborate with his peers and learn relevant skills. Outside of school and work, Jaycee loves to spend time outdoors, whether camping or wakeboarding on Lake Sammamish. Additionally, he likes to stay active with friends, often at the gym and through hiking."
       social = [
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
