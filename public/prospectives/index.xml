@@ -4,8 +4,7 @@
     <title>Prospectives on Scheuerell Lab</title>
     <link>https://depts.washington.edu/appliedecology/prospectives/</link>
     <description>Recent content in Prospectives on Scheuerell Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://depts.washington.edu/appliedecology/prospectives/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://depts.washington.edu/appliedecology/prospectives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

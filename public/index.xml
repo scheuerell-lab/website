@@ -4,8 +4,7 @@
     <title>Scheuerell Lab</title>
     <link>https://depts.washington.edu/appliedecology/</link>
     <description>Recent content on Scheuerell Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://depts.washington.edu/appliedecology/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://depts.washington.edu/appliedecology/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
