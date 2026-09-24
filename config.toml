@@ -78,7 +78,7 @@ relativeurls = false
     [[params.team.PI]]
       name = "Mark Scheuerell"
       position = "Principal Investigator"
-      img = "Mark.jpg"
+      img = "Mark_SAFS.jpg"
       # For bio, markdown and multiline strings are possible.
       bio = "Mark's research interests lie at the intersection of ecology and management. He is broadly interested in the roles of natural and anthropogenic drivers on freshwater and coastal ecosystems, and the services we derive from them. You can find out more about Mark's research and teaching interests [**here**](https://faculty.washington.edu/scheuerl/). Mark also appreciates a healthy work-life balance. In his free time, Mark enjoys cycling, skiing, and enjoying Seattle and the surrounding area with his family."
       social = [
@@ -164,7 +164,7 @@ relativeurls = false
     [[params.team.members]]
       name = "Callie Murakami"
       position = "Undergraduate"
-      img = "Callie.jpg"
+      img = "Callie_2025.jpg"
       # For bio, markdown and multiline strings are possible.
       bio = "Callie is a senior majoring in Aquatic & Fishery Sciences and minoring in Quantitative Science and Freshwater Science & Management. With a grant from [**Conservation, Research and Education Opportunities International**](https://creoi.org/), Callie is working alongside PhD student Markus Min and collaborators at the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) to better understand spatial and temporal patterns of marine debris in Puget Sound. Callie spent four weeks in SW Alaska during the summer of 2024 with the [**UW Alaska Salmon Program**](https://alaskasalmonprogram.org/) studying sockeye salmon and the freshwater ecosystems that support them. This past summer, Callie was a [**Varanasi Quantitative Undergraduate Intern**](https://fish.uw.edu/students/student-and-career-opportunities/internships/varanasi-internship/) with [**NOAA Fisheries**](https://www.fisheries.noaa.gov/) where she helped to develop an R package and Shiny app to summarize groundfish survey data across the North Pacific Ocean. Outside of her interests in data science and freshwater ecology, Callie enjoys drawing, sewing, and roller skating."
       social = [
@@ -247,26 +247,12 @@ relativeurls = false
 		phone = ""
 		email = "scheuerl@uw.edu"
 
-	# -------------------
-	# Google Maps section
-	# -------------------
-	[params.location]
-	 	map = 1
-	 	latitude  = "47.652639"
-	 	longitude = "-122.316389"
-	 	maps_api_key = ""
-
 	# --------------
 	# Footer section
 	# --------------
 	[params.footer]
     enable = true
-    copyright = "&copy; 2024 Mark Scheuerell"
-
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "https://twitter.com/mark_scheuerell"
-      title = "Twitter"
+    copyright = "&copy; 2025 Mark Scheuerell"
 
     [[params.footer.social]]
       icon = "fa-github"
