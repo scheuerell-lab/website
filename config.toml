@@ -87,17 +87,6 @@ relativeurls = false
       ]
 
     [[params.team.members]]
-      name = "Markus Min"
-      position = "PhD Student"
-      img = "Markus.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Markus’s research interests are primarily focused on the application of ecological and statistical models to the management of marine ecosystems and fisheries. In addition to his research, Markus is also passionate about mentoring, teaching, and advancing equity in science. Prior to coming to SAFS, he completed his BS in Marine Biology at UCLA and worked as a research assistant in the Biological Oceanography Group at the Monterey Bay Aquarium Research Institute (MBARI). While his research at both UCLA and MBARI was focused on the new, exciting field of environmental DNA (eDNA), it was his time spent studying groundfish as an intern at [**NOAA Fisheries**](https://www.fisheries.noaa.gov/) that inspired him to return to Seattle to study fisheries science and marine ecology at SAFS. In addition to his academic interests, Markus enjoys playing music, baking, fishing, hiking, and soccer. Find out more about Markus [**here**](https://www.markusmin.com/)."
-      social = [
-        ["fa-twitter", "https://twitter.com/markusamin"],
-        ["fa-github", "https://github.com/markusmin"]
-        ]
-      
-    [[params.team.members]]
       name = "Nicole Doran"
       position = "PhD Student"
       img = "Nicole.jpg"
@@ -152,23 +141,12 @@ relativeurls = false
         
     [[params.team.members]]
       name = "Amirah Casey"
-      position = "MS Student"
+      position = "PhD Student"
       img = "Amirah.jpg"
       # For bio, markdown and multiline strings are possible.
       bio = " Amirah graduated as an [**Outstanding Graduate**](https://window.wwu.edu/she-was-beautiful-loyal-and-tough) from Western Washington University with a BS in Marine and Coastal Science and a minor in Spanish. While at WWU, Amirah took part in research on the effects of PCBs and PBDEs on zebrafish and surf smelt. During her four years as an undergraduate, she was a marine science education intern at [**foundry10**](https://www.foundry10.org/), the first undergraduate to teach a lab section of organismal biology, and a peer mentor for the Marine and Coastal Science program. Amirah is collaborating with the ecotoxicology group at NOAA Fisheries focusing on interactions between urban growth, imperviousness, toxic runoff, and expanding thermal stress in [**freshwater salmon habitats**](https://zenodo.org/records/17188229). In addition to her studies in SAFS, she is also a [**PNW Climate Ambassador**](https://fish.uw.edu/2025/07/climate-change-and-communication-go-hand-in-hand-for-pnw-climate-ambassadors/), [**undergraduate mentor**](https://fish.uw.edu/2025/06/high-schoolers-design-lesson-on-pacific-salmon-and-chemicals/), and [**SEAS board member**](https://fish.uw.edu/students/student-organizations/students-explore-aquatic-sciences-seas/). Amirah also enjoyed being a member of the [**Future Rivers program**](https://futurerivers.uw.edu/) and TAing Quantitative Ecology. Her future work will explore climate solutions and their implications for ecosystems and societies. Besides school and work, Amirah enjoys going to the gym, exploring the city with friends, and reading a wide variety of genres."
       social = [
         ["fa fa-linkedin", "https://www.linkedin.com/in/amirah-casey-b77404a3/"],
-        ["fa-github", "https://github.com/scheuerell-lab"]
-        ]
-        
-    [[params.team.members]]
-      name = "Callie Murakami"
-      position = "Undergraduate"
-      img = "Callie_2025.jpg"
-      # For bio, markdown and multiline strings are possible.
-      bio = "Callie is a senior majoring in Aquatic & Fishery Sciences and minoring in Quantitative Science and Freshwater Science & Management. With a grant from [**Conservation, Research and Education Opportunities International**](https://creoi.org/), Callie is working alongside PhD student Markus Min and collaborators at the [**Washington Department of Fish and Wildlife**](https://wdfw.wa.gov/) (WDFW) to better understand spatial and temporal patterns of marine debris in Puget Sound. Callie spent four weeks in SW Alaska during the summer of 2024 with the [**UW Alaska Salmon Program**](https://alaskasalmonprogram.org/) studying sockeye salmon and the freshwater ecosystems that support them. This past summer, Callie was a [**Varanasi Quantitative Undergraduate Intern**](https://fish.uw.edu/students/student-and-career-opportunities/internships/varanasi-internship/) with [**NOAA Fisheries**](https://www.fisheries.noaa.gov/) where she helped to develop an R package and Shiny app to summarize groundfish survey data across the North Pacific Ocean. Outside of her interests in data science and freshwater ecology, Callie enjoys drawing, sewing, and roller skating."
-      social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/callie-murakami-5695a2396/"],
         ["fa-github", "https://github.com/scheuerell-lab"]
         ]
         
@@ -185,6 +163,8 @@ relativeurls = false
     [[params.team.former]]
       people = [
         [" "],
+        ["Markus Min", "(PhD Student, 2020-2026)", "fa-external-link", "https://www.markusmin.com/"],
+        ["Callie Murakami", "(Undergraduate Scholar, 2025-2026)", "fa-external-link", "https://github.com/calmurakami"],
         ["Sarah Hensley", "(Undergraduate Scholar, 2023-2024)", "fa-external-link", "https://www.linkedin.com/in/sarahmhensley/"],
         ["Dr. Dara Farrell", "(Postdoc, 2021-2023)", "fa-external-link", "https://www.linkedin.com/in/darafarrell/"],
         ["Karl Veggerby", "(Masters Student, 2021-2023)", "fa-external-link", "https://veggerk.github.io/"],
